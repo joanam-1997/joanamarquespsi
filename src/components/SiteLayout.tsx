@@ -64,7 +64,8 @@ function SiteFooter() {
       <div className="container-prose py-12 grid gap-8 md:grid-cols-3 text-sm">
         <div>
           <p className="font-serif text-lg text-foreground">Joana Marques</p>
-          <p className="text-muted-foreground mt-1">
+          <div className="h-px w-10 bg-accent/60 mt-2" />
+          <p className="text-muted-foreground mt-3">
             Psicóloga · Porto
           </p>
         </div>
