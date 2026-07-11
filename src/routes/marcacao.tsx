@@ -38,26 +38,8 @@ function MarcacaoPage() {
         </div>
 
         <div className="mt-16 grid md:grid-cols-5 gap-10">
-          <div className="md:col-span-3 space-y-10">
-            <PriceRow
-              label=""
-              price=""
-              note=""
-            />
-            <PriceRow
-              label="Consulta de Psicologia"
-              price="50 €"
-              note="Sessão semanal de 50 minutos, presencial ou online."
-            />
-            <PriceRow
-              label=""
-              price=""
-              note=""
-            />
-            <p className="text-sm text-muted-foreground pt-4">
-              {"\n"}
-            </p>
-          </div>
+          <div className="md:col-span-3" />
+
 
           <aside className="md:col-span-2">
             <div className="rounded-3xl bg-secondary/60 p-8 space-y-6 border border-border/60">
