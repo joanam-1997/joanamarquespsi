@@ -105,8 +105,8 @@ function Approach() {
   return (
     <section className="container-prose py-24 md:py-32">
       <div className="max-w-3xl">
-        <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
-          Sobre a terapia
+        <p className="inline-flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-accent mb-6">
+          <span className="h-px w-8 bg-accent/60" /> Sobre a terapia
         </p>
         <blockquote className="font-serif text-3xl md:text-4xl leading-snug text-foreground italic">
           "Aquilo que não é elaborado internamente, tende a repetir-se
