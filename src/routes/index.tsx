@@ -96,25 +96,3 @@ function Approach() {
   );
 }
 
-function Cta() {
-  return (
-    <section className="container-prose pb-24">
-      <div className="rounded-3xl bg-primary text-primary-foreground p-10 md:p-16 shadow-soft">
-        <div className="max-w-2xl space-y-6">
-          <h2 className="font-serif text-3xl md:text-4xl">
-            {"\n"}
-          </h2>
-          <p className="text-primary-foreground/80 text-lg leading-relaxed">
-            {"\n"}
-          </p>
-          <Link
-            to="/marcacao"
-            className="inline-flex items-center rounded-full bg-background text-foreground px-6 py-3 text-sm hover:bg-background/90 transition"
-          >
-            {""}
-          </Link>
-        </div>
-      </div>
-    </section>
-  );
-}
