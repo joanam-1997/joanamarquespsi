@@ -29,7 +29,6 @@ function ServicosPage() {
         <div className="container-prose py-20">
           <Modality
             title="Consulta psicológica individual"
-            body="Sessões individuais de acompanhamento psicológico para adultos. Presenciais (na Boavista) ou online."
             price="50 €"
             priceNote="Sessão semanal de 50 minutos, presencial ou online."
           />
@@ -39,11 +38,11 @@ function ServicosPage() {
   );
 }
 
-function Modality({ title, body, price, priceNote }: { title: string; body: string; price?: string; priceNote?: string }) {
+function Modality({ title, body, price, priceNote }: { title: string; body?: string; price?: string; priceNote?: string }) {
   return (
     <div>
       <h3 className="font-serif text-2xl text-foreground">{title}</h3>
-      <p className="mt-3 text-muted-foreground leading-relaxed">{body}</p>
+      {body && <p className="mt-3 text-muted-foreground leading-relaxed">{body}</p>}
       {price && (
         <div className="mt-6 border-t border-border/70 pt-6 flex items-baseline justify-between gap-6">
           <p className="text-muted-foreground text-sm">{priceNote}</p>
