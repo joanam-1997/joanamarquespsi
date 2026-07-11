@@ -21,7 +21,7 @@ function SiteHeader() {
           <span className="font-serif text-xl tracking-tight text-foreground">
             Joana Marques
           </span>
-          <span className="text-xs uppercase tracking-[0.2em] text-accent">
+          <span className="text-xs uppercase tracking-[0.2em] text-primary">
             Psicóloga
           </span>
         </Link>
@@ -64,8 +64,7 @@ function SiteFooter() {
       <div className="container-prose py-12 grid gap-8 md:grid-cols-3 text-sm">
         <div>
           <p className="font-serif text-lg text-foreground">Joana Marques</p>
-          <div className="h-px w-10 bg-accent/60 mt-2" />
-          <p className="text-muted-foreground mt-3">
+          <p className="text-muted-foreground mt-1">
             Psicóloga · Porto
           </p>
         </div>

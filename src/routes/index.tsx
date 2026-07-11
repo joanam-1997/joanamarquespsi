@@ -22,8 +22,8 @@ function Hero() {
     <section className="container-prose pt-16 pb-24 md:pt-24 md:pb-32">
       <div className="grid md:grid-cols-12 gap-10 items-center">
         <div className="md:col-span-7 space-y-8">
-          <p className="inline-flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-accent">
-            <span className="h-px w-8 bg-accent/60" /> Psicoterapia · Porto
+          <p className="text-xs uppercase tracking-[0.3em] text-primary">
+            Psicoterapia · Porto
           </p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-foreground">
             Um espaço para <em className="text-primary not-italic">pensar</em>,
@@ -90,7 +90,7 @@ function Intro() {
         <div className="grid md:grid-cols-3 gap-10 md:gap-14">
           {items.map((i) => (
             <div key={i.k} className="space-y-3">
-              <p className="font-serif text-accent text-sm">{i.k}</p>
+              <p className="font-serif text-primary text-sm">{i.k}</p>
               <h3 className="font-serif text-2xl text-foreground">{i.t}</h3>
               <p className="text-muted-foreground leading-relaxed">{i.d}</p>
             </div>
@@ -105,8 +105,8 @@ function Approach() {
   return (
     <section className="container-prose py-24 md:py-32">
       <div className="max-w-3xl">
-        <p className="inline-flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-accent mb-6">
-          <span className="h-px w-8 bg-accent/60" /> Sobre a terapia
+        <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
+          Sobre a terapia
         </p>
         <blockquote className="font-serif text-3xl md:text-4xl leading-snug text-foreground italic">
           "Aquilo que não é elaborado internamente, tende a repetir-se
