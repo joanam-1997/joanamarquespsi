@@ -26,13 +26,14 @@ function Hero() {
             PSICOLOGIA · PORTO
           </p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-foreground">
-            Um espaço para <em className="text-primary not-italic">pensar</em>,
-            <br /> sentir e habitar-se.
+            Um espaço para <em className="text-primary not-italic">sentir</em>,
+            <br /> pensar e habitar-se.
           </h1>
           <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Sou a Joana Marques, psicóloga clínica no Porto. Ofereço psicoterapia
-            de abordagem psicodinâmica a adultos que procuram compreender-se com
-            mais profundidade — no seu tempo, sem pressa.
+            Sou a Joana Marques, psicóloga no Porto (Boavista). Ofereço
+            intervenção psicológica, com base na abordagem psicodinâmica, para
+            adultos que procuram compreender-se com mais profundidade — no seu
+            tempo, sem pressa.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
