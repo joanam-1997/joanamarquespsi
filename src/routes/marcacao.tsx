@@ -101,7 +101,3 @@ function MarcacaoPage() {
   );
 }
 
-function PriceRow(_: { label: string; price: string; note: string }) {
-  return null;
-}
-
