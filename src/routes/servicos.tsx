@@ -29,7 +29,6 @@ function ServicosPage() {
         <div className="container-prose py-20">
           <Modality
             title="Consulta psicológica individual"
-            body="Sessões individuais de acompanhamento psicológico para adultos. Presenciais (na Boavista) ou online."
             price="50 €"
             priceNote="Sessão semanal de 50 minutos, presencial ou online."
           />
