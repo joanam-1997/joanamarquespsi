@@ -81,7 +81,7 @@ function SiteFooter() {
             +351 935727106
           </a>
           <a
-            href="https://instagram.com/"
+            href="https://instagram.com/joanamarques.psi"
             target="_blank"
             rel="noreferrer noopener"
             className="inline-flex items-center gap-1.5 pt-2 text-muted-foreground hover:text-foreground transition"
@@ -92,7 +92,7 @@ function SiteFooter() {
               <circle cx="12" cy="12" r="4" />
               <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
             </svg>
-            <span>Instagram</span>
+            <span>joanamarques.psi</span>
           </a>
         </div>
       </div>
