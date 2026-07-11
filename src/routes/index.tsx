@@ -22,8 +22,8 @@ function Hero() {
     <section className="container-prose pt-16 pb-24 md:pt-24 md:pb-32">
       <div className="grid md:grid-cols-12 gap-10 items-center">
         <div className="md:col-span-7 space-y-8">
-          <p className="text-xs uppercase tracking-[0.3em] text-primary">
-            Psicoterapia · Porto
+          <p className="inline-flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-accent">
+            <span className="h-px w-8 bg-accent/60" /> Psicoterapia · Porto
           </p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-foreground">
             Um espaço para <em className="text-primary not-italic">pensar</em>,
