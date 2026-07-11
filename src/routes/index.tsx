@@ -71,18 +71,18 @@ function Intro() {
   const items = [
     {
       k: "01",
-      t: "Escuta atenta",
-      d: "Um espaço confidencial onde as suas palavras — e os seus silêncios — têm lugar.",
+      t: "",
+      d: "",
     },
     {
       k: "02",
-      t: "Abordagem psicodinâmica",
-      d: "Um trabalho continuado que procura o sentido daquilo que se repete e nos limita.",
+      t: "",
+      d: "",
     },
     {
       k: "03",
-      t: "No seu tempo",
-      d: "A terapia acontece ao ritmo de cada pessoa. Sem fórmulas, sem promessas rápidas.",
+      t: "",
+      d: "",
     },
   ];
   return (
@@ -91,7 +91,7 @@ function Intro() {
         <div className="grid md:grid-cols-3 gap-10 md:gap-14">
           {items.map((i) => (
             <div key={i.k} className="space-y-3">
-              <p className="font-serif text-primary text-sm">{i.k}</p>
+              <p className="font-serif text-primary text-sm">{i.k === "\n" ? "\n" : i.k}</p>
               <h3 className="font-serif text-2xl text-foreground">{i.t}</h3>
               <p className="text-muted-foreground leading-relaxed">{i.d}</p>
             </div>
@@ -107,7 +107,7 @@ function Approach() {
     <section className="container-prose py-24 md:py-32">
       <div className="max-w-3xl">
         <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
-          Sobre a terapia
+          SOBRE O ACOMPANHAMENTO PSICOLÓGICO
         </p>
         <blockquote className="font-serif text-3xl md:text-4xl leading-snug text-foreground italic">
           "Aquilo que não é elaborado internamente, tende a repetir-se

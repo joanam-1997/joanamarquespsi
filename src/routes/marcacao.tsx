@@ -40,19 +40,19 @@ function MarcacaoPage() {
         <div className="mt-16 grid md:grid-cols-5 gap-10">
           <div className="md:col-span-3 space-y-10">
             <PriceRow
-              label="Consulta de avaliação"
-              price="65 €"
-              note="Primeiro encontro, 50 minutos."
+              label=""
+              price=""
+              note=""
             />
             <PriceRow
-              label="Sessão de psicoterapia"
-              price="65 €"
+              label="Consulta de Psicologia"
+              price="50 €"
               note="Sessão semanal de 50 minutos, presencial ou online."
             />
             <PriceRow
-              label="Recibo para reembolso"
-              price="Incluído"
-              note="Emitido em cada sessão para apresentação ao seu subsistema de saúde."
+              label=""
+              price=""
+              note=""
             />
             <p className="text-sm text-muted-foreground pt-4">
               O pagamento pode ser feito por MB Way, transferência ou numerário.
@@ -65,7 +65,7 @@ function MarcacaoPage() {
             <div className="rounded-3xl bg-secondary/60 p-8 space-y-6 border border-border/60">
               <div>
                 <p className="text-xs uppercase tracking-[0.25em] text-primary mb-2">
-                  Contacto directo
+                  CONTACTOS
                 </p>
                 <a
                   href="mailto:ola@joanamarques.pt"
