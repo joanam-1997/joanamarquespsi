@@ -30,8 +30,7 @@ function Hero() {
             <br /> pensar e habitar-se.
           </h1>
           <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Sou a Joana Marques, psicóloga no Porto (Boavista). Ofereço
-            intervenção psicológica, com base na abordagem psicodinâmica, para
+            Acompanhamento psicológico, com base na abordagem psicodinâmica, para
             adultos que procuram compreender-se com mais profundidade — no seu
             tempo, sem pressa.
           </p>
