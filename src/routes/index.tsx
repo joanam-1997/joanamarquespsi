@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <SiteLayout>
       <Hero />
-      <Intro />
+      
       <Approach />
       <Cta />
     </SiteLayout>
@@ -67,40 +67,6 @@ function Hero() {
   );
 }
 
-function Intro() {
-  const items = [
-    {
-      k: "01",
-      t: "",
-      d: "",
-    },
-    {
-      k: "02",
-      t: "",
-      d: "",
-    },
-    {
-      k: "03",
-      t: "",
-      d: "",
-    },
-  ];
-  return (
-    <section className="bg-secondary/60 border-y border-border/60">
-      <div className="container-prose py-20 md:py-28">
-        <div className="grid md:grid-cols-3 gap-10 md:gap-14">
-          {items.map((i) => (
-            <div key={i.k} className="space-y-3">
-              <p className="font-serif text-primary text-sm">{i.k === "\n" ? "\n" : i.k}</p>
-              <h3 className="font-serif text-2xl text-foreground">{i.t}</h3>
-              <p className="text-muted-foreground leading-relaxed">{i.d}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function Approach() {
   return (
