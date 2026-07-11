@@ -21,7 +21,7 @@ function SiteHeader() {
           <span className="font-serif text-xl tracking-tight text-foreground">
             Joana Marques
           </span>
-          <span className="text-xs uppercase tracking-[0.2em] text-primary">
+          <span className="text-xs uppercase tracking-[0.2em] text-accent">
             Psicóloga
           </span>
         </Link>
