@@ -89,7 +89,7 @@ function ServicosPage() {
         <div className="container-prose py-20">
           <Modality
             title="Consulta psicológica individual"
-            body="Sessões individuais de acompanhamento psicológico, presenciais no consultório do Porto ou online."
+            body="Sessões individuais de acompanhamento psicológico para adultos. Presenciais (na Boavista) ou online."
           />
         </div>
       </section>
