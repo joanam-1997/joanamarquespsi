@@ -38,26 +38,8 @@ function MarcacaoPage() {
         </div>
 
         <div className="mt-16 grid md:grid-cols-5 gap-10">
-          <div className="md:col-span-3 space-y-10">
-            <PriceRow
-              label=""
-              price=""
-              note=""
-            />
-            <PriceRow
-              label="Consulta de Psicologia"
-              price="50 €"
-              note="Sessão semanal de 50 minutos, presencial ou online."
-            />
-            <PriceRow
-              label=""
-              price=""
-              note=""
-            />
-            <p className="text-sm text-muted-foreground pt-4">
-              {"\n"}
-            </p>
-          </div>
+          <div className="md:col-span-3" />
+
 
           <aside className="md:col-span-2">
             <div className="rounded-3xl bg-secondary/60 p-8 space-y-6 border border-border/60">
@@ -119,22 +101,3 @@ function MarcacaoPage() {
   );
 }
 
-function PriceRow({
-  label,
-  price,
-  note,
-}: {
-  label: string;
-  price: string;
-  note: string;
-}) {
-  return (
-    <div className="border-t border-border/70 pt-6 flex items-baseline justify-between gap-6">
-      <div>
-        <h3 className="font-serif text-2xl text-foreground">{label}</h3>
-        <p className="mt-1 text-muted-foreground text-sm">{note}</p>
-      </div>
-      <div className="font-serif text-2xl text-primary shrink-0">{price}</div>
-    </div>
-  );
-}
