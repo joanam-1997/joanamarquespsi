@@ -23,7 +23,14 @@ export const Route = createFileRoute("/servicos")({
 function ServicosPage() {
   return (
     <SiteLayout>
-
+      <section className="container-prose py-20 md:py-28">
+        <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
+          O que ofereço
+        </p>
+        <h1 className="font-serif text-5xl md:text-6xl text-foreground leading-tight">
+          Serviços
+        </h1>
+      </section>
 
       <section className="bg-secondary/60 border-t border-border/60">
         <div className="container-prose py-20">
