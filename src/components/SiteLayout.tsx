@@ -69,8 +69,8 @@ function SiteFooter() {
           </p>
         </div>
         <div className="space-y-1 text-muted-foreground">
-          <p>Rua Dominguez Alvarez 44, 4100-801 Boavista</p>
-          <p>Consultas presenciais e online</p>
+          <p>Rua Dominguez Alvarez 44, 4100-801 Boavista (Consultas presenciais e online)</p>
+          <p>{"\n"}</p>
           <p>{"\n"}</p>
         </div>
         <div className="space-y-1">
