@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <SiteLayout>
       <Hero />
-      <Intro />
+      
       <Approach />
       <Cta />
     </SiteLayout>
