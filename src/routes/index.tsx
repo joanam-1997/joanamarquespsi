@@ -71,18 +71,18 @@ function Intro() {
   const items = [
     {
       k: "01",
-      t: "Escuta atenta",
-      d: "Um espaço confidencial onde as suas palavras — e os seus silêncios — têm lugar.",
+      t: "",
+      d: "",
     },
     {
       k: "02",
-      t: "Abordagem psicodinâmica",
-      d: "Um trabalho continuado que procura o sentido daquilo que se repete e nos limita.",
+      t: "",
+      d: "",
     },
     {
       k: "03",
-      t: "No seu tempo",
-      d: "A terapia acontece ao ritmo de cada pessoa. Sem fórmulas, sem promessas rápidas.",
+      t: "",
+      d: "",
     },
   ];
   return (
@@ -107,7 +107,7 @@ function Approach() {
     <section className="container-prose py-24 md:py-32">
       <div className="max-w-3xl">
         <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
-          Sobre a terapia
+          SOBRE O ACOMPANHAMENTO PSICOLÓGICO
         </p>
         <blockquote className="font-serif text-3xl md:text-4xl leading-snug text-foreground italic">
           "Aquilo que não é elaborado internamente, tende a repetir-se
