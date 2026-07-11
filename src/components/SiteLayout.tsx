@@ -26,6 +26,9 @@ function SiteHeader() {
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
+          <Link to="/" className={linkBase} activeOptions={{ exact: true }} activeProps={{ className: "text-foreground font-medium" }}>
+            Página inicial
+          </Link>
           <Link to="/sobre" className={linkBase} activeProps={{ className: "text-foreground font-medium" }}>
             Sobre
           </Link>
