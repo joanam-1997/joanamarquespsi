@@ -63,15 +63,15 @@ function SiteFooter() {
     <footer className="border-t border-border/60 mt-24">
       <div className="container-prose py-12 grid gap-8 md:grid-cols-3 text-sm">
         <div>
-          <p className="font-serif text-lg text-foreground">Joana Marques</p>
+          <p className="font-serif text-lg text-foreground">Joana Marques OPP 30473</p>
           <p className="text-muted-foreground mt-1">
             Psicóloga · Porto
           </p>
         </div>
         <div className="space-y-1 text-muted-foreground">
-          <p>Consultório na Boavista</p>
+          <p>Rua Dominguez Alvarez 44, 4100-801 Boavista</p>
           <p>Consultas presenciais e online</p>
-          <p>Cédula OPP nº 30473</p>
+          <p>{"\n"}</p>
         </div>
         <div className="space-y-1">
           <a href="mailto:joanatmarques.psi@gmail.com" className="block text-foreground hover:text-primary transition">
