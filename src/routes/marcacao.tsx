@@ -101,22 +101,7 @@ function MarcacaoPage() {
   );
 }
 
-function PriceRow({
-  label,
-  price,
-  note,
-}: {
-  label: string;
-  price: string;
-  note: string;
-}) {
-  return (
-    <div className="border-t border-border/70 pt-6 flex items-baseline justify-between gap-6">
-      <div>
-        <h3 className="font-serif text-2xl text-foreground">{label}</h3>
-        <p className="mt-1 text-muted-foreground text-sm">{note}</p>
-      </div>
-      <div className="font-serif text-2xl text-primary shrink-0">{price}</div>
-    </div>
-  );
+function PriceRow(_: { label: string; price: string; note: string }) {
+  return null;
 }
+
