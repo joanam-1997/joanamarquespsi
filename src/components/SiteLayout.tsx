@@ -51,7 +51,7 @@ function SiteHeader() {
           to="/marcacao"
           className="md:hidden inline-flex items-center rounded-full bg-primary px-4 py-2 text-xs text-primary-foreground"
         >
-          Marcar
+          Marcar Consulta
         </Link>
       </div>
     </header>
@@ -85,7 +85,7 @@ function SiteFooter() {
       <div className="border-t border-border/60">
         <div className="container-prose py-5 text-xs text-muted-foreground flex flex-wrap justify-between gap-2">
           <span>© {new Date().getFullYear()} Joana Marques. Todos os direitos reservados.</span>
-          <span>Sigilo profissional garantido.</span>
+          <span>{"\n"}</span>
         </div>
       </div>
     </footer>

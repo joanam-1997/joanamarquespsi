@@ -23,7 +23,7 @@ function Hero() {
       <div className="grid md:grid-cols-12 gap-10 items-center">
         <div className="md:col-span-7 space-y-8">
           <p className="text-xs uppercase tracking-[0.3em] text-primary">
-            Psicoterapia · Porto
+            PSICOLOGIA · PORTO
           </p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-foreground">
             Um espaço para <em className="text-primary not-italic">pensar</em>,
@@ -39,7 +39,7 @@ function Hero() {
               to="/marcacao"
               className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-sm text-primary-foreground hover:bg-primary/90 transition"
             >
-              Marcar primeira consulta
+              Marcar consulta
             </Link>
             <Link
               to="/sobre"
