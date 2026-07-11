@@ -39,11 +39,17 @@ function ServicosPage() {
   );
 }
 
-function Modality({ title, body }: { title: string; body: string }) {
+function Modality({ title, body, price, priceNote }: { title: string; body: string; price?: string; priceNote?: string }) {
   return (
     <div>
       <h3 className="font-serif text-2xl text-foreground">{title}</h3>
       <p className="mt-3 text-muted-foreground leading-relaxed">{body}</p>
+      {price && (
+        <div className="mt-6 border-t border-border/70 pt-6 flex items-baseline justify-between gap-6">
+          <p className="text-muted-foreground text-sm">{priceNote}</p>
+          <div className="font-serif text-2xl text-primary shrink-0">{price}</div>
+        </div>
+      )}
     </div>
   );
 }
