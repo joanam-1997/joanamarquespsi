@@ -65,20 +65,20 @@ function SiteFooter() {
         <div>
           <p className="font-serif text-lg text-foreground">Joana Marques</p>
           <p className="text-muted-foreground mt-1">
-            Psicóloga clínica · Porto
+            Psicóloga · Porto
           </p>
         </div>
         <div className="space-y-1 text-muted-foreground">
-          <p>Consultório no Porto</p>
+          <p>Consultório na Boavista</p>
           <p>Consultas presenciais e online</p>
-          <p>Cédula OPP nº 00000</p>
+          <p>Cédula OPP nº 30473</p>
         </div>
         <div className="space-y-1">
-          <a href="mailto:ola@joanamarques.pt" className="block text-foreground hover:text-primary transition">
-            ola@joanamarques.pt
+          <a href="mailto:joanatmarques.psi@gmail.com" className="block text-foreground hover:text-primary transition">
+            joanatmarques.psi@gmail.com
           </a>
-          <a href="tel:+351000000000" className="block text-muted-foreground hover:text-foreground transition">
-            +351 000 000 000
+          <a href="tel:+351935727106" className="block text-muted-foreground hover:text-foreground transition">
+            +351 935727106
           </a>
         </div>
       </div>
