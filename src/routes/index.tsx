@@ -114,10 +114,11 @@ function Approach() {
           externamente."
         </blockquote>
         <p className="mt-8 text-muted-foreground leading-relaxed text-lg">
-          A psicoterapia psicodinâmica parte do pressuposto de que muito daquilo
-          que sentimos e fazemos escapa à nossa consciência. Ao dar espaço a
-          essa vida interior — memórias, afetos, sonhos, relações — abre-se a
-          possibilidade de escolher, em vez de repetir.
+          O modelo psicodinâmico parte do pressuposto de que muito daquilo que
+          sentimos e fazemos escapa à nossa consciência. Ao dar espaço a essa
+          vida interior — memórias, afetos, sonhos, relações — abre-se a
+          possibilidade de escolher, em vez de repetir.{"\n"}Foco na relação
+          terapêutica
         </p>
         <Link
           to="/sobre"
@@ -136,18 +137,16 @@ function Cta() {
       <div className="rounded-3xl bg-primary text-primary-foreground p-10 md:p-16 shadow-soft">
         <div className="max-w-2xl space-y-6">
           <h2 className="font-serif text-3xl md:text-4xl">
-            Dar o primeiro passo é, muitas vezes, o mais difícil.
+            {"\n"}
           </h2>
           <p className="text-primary-foreground/80 text-lg leading-relaxed">
-            Se está a considerar iniciar um processo terapêutico, podemos
-            começar por uma consulta de avaliação — um espaço para nos
-            conhecermos e perceber se faz sentido caminharmos juntas.
+            {"\n"}
           </p>
           <Link
             to="/marcacao"
             className="inline-flex items-center rounded-full bg-background text-foreground px-6 py-3 text-sm hover:bg-background/90 transition"
           >
-            Marcar consulta
+            {""}
           </Link>
         </div>
       </div>
