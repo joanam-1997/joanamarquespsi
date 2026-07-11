@@ -80,6 +80,20 @@ function SiteFooter() {
           <a href="tel:+351935727106" className="block text-muted-foreground hover:text-foreground transition">
             +351 935727106
           </a>
+          <a
+            href="https://instagram.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="inline-flex items-center gap-1.5 pt-2 text-muted-foreground hover:text-foreground transition"
+            aria-label="Instagram"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+            </svg>
+            <span>Instagram</span>
+          </a>
         </div>
       </div>
       <div className="border-t border-border/60">
