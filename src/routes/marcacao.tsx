@@ -79,24 +79,6 @@ function MarcacaoPage() {
         </div>
       </section>
 
-      <section className="container-prose pb-24">
-        <div className="rounded-3xl bg-primary text-primary-foreground p-10 md:p-14 shadow-soft">
-          <div className="max-w-2xl space-y-5">
-            <h2 className="font-serif text-3xl md:text-4xl">
-              {"\n"}
-            </h2>
-            <p className="text-primary-foreground/80 leading-relaxed">
-              {"\n"}
-            </p>
-            <a
-              href="mailto:joanatmarques.psi@gmail.com?subject=Marca%C3%A7%C3%A3o%20de%20consulta"
-              className="inline-flex items-center rounded-full bg-background text-foreground px-6 py-3 text-sm hover:bg-background/90 transition"
-            >
-              {""}
-            </a>
-          </div>
-        </div>
-      </section>
     </SiteLayout>
   );
 }
