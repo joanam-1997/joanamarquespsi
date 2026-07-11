@@ -12,10 +12,10 @@ function HomePage() {
       <Hero />
       
       <Approach />
-      <Cta />
     </SiteLayout>
   );
 }
+
 
 function Hero() {
   return (
