@@ -86,18 +86,10 @@ function ServicosPage() {
       </section>
 
       <section className="bg-secondary/60 border-t border-border/60">
-        <div className="container-prose py-20 grid md:grid-cols-3 gap-10">
+        <div className="container-prose py-20">
           <Modality
-            title="Consulta de avaliação"
-            body="Um a três encontros iniciais para nos conhecermos e definir se, e como, faz sentido iniciar um trabalho terapêutico."
-          />
-          <Modality
-            title="Psicoterapia individual"
-            body="Sessões semanais de 50 minutos, no consultório do Porto. Um processo continuado, sem duração pré-definida."
-          />
-          <Modality
-            title="Sessões online"
-            body="Para quem vive fora do Porto ou está em deslocação. Mesma estrutura e enquadramento das sessões presenciais."
+            title="Consulta psicológica individual"
+            body="Sessões individuais de acompanhamento psicológico, presenciais no consultório do Porto ou online."
           />
         </div>
       </section>
