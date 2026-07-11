@@ -1,12 +1,11 @@
-import { Link, Outlet } from "@tanstack/react-router";
+import type { ReactNode } from "react";
+import { Link } from "@tanstack/react-router";
 
-export function SiteLayout() {
+export function SiteLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <SiteHeader />
-      <main className="flex-1">
-        <Outlet />
-      </main>
+      <main className="flex-1">{children}</main>
       <SiteFooter />
     </div>
   );
