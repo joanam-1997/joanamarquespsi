@@ -75,8 +75,10 @@ function Approach() {
           SOBRE O ACOMPANHAMENTO PSICOLÓGICO
         </p>
         <blockquote className="font-serif text-3xl md:text-4xl leading-snug text-foreground italic">
-          "Aquilo que não é elaborado internamente, tende a repetir-se
-          externamente."
+          "Parte de nos conhecermos é deixarmos de nos conhecer — abandonarmos as
+          histórias limitadoras que contamos a nós próprios acerca de quem somos,
+          para que não fiquemos presos a elas e possamos viver a nossa vida, não a
+          história que temos vindo a contar a nós próprios acerca dela."
         </blockquote>
         <p className="mt-8 text-muted-foreground leading-relaxed text-lg">
           A minha intervenção baseia-se no modelo psicodinâmico, através do qual
