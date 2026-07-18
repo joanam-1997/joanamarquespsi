@@ -79,11 +79,10 @@ function Approach() {
           externamente."
         </blockquote>
         <p className="mt-8 text-muted-foreground leading-relaxed text-lg">
-          O modelo psicodinâmico parte do pressuposto de que muito daquilo que
-          sentimos e fazemos escapa à nossa consciência. Ao dar espaço a essa
-          vida interior — memórias, afetos, sonhos, relações — abre-se a
-          possibilidade de escolher, em vez de repetir.{"\n"}Foco na relação
-          terapêutica
+          A minha intervenção baseia-se no modelo psicodinâmico, através do qual
+          procuro compreender a história e as singularidades de cada pessoa,
+          valorizando a relação terapêutica como elemento central do processo
+          psicoterapêutico.
         </p>
         <Link
           to="/sobre"

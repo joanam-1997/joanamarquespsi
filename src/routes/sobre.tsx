@@ -32,23 +32,18 @@ function SobrePage() {
               Joana Marques
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Sou psicóloga clínica, com consultório no Porto. Acompanho adultos
-              em processos de psicoterapia de abordagem psicodinâmica —
-              presencialmente e online.
+              Sou psicóloga, com consultório no Porto. Acompanho adultos em
+              processos de acompanhamento psicológico, através da abordagem
+              psicodinâmica — presencialmente e online.
             </p>
             <div className="space-y-5 text-foreground/90 leading-relaxed pt-4">
               <p>
-                O meu trabalho parte da convicção de que existe sempre um
-                sentido — mesmo nas dificuldades que parecem mais opacas ou
-                repetitivas. A psicoterapia oferece o tempo e o enquadramento
-                necessários para que esse sentido se possa desdobrar.
-              </p>
-              <p>
-                Acompanho pessoas que atravessam períodos de sofrimento,
-                inquietação ou desorientação: ansiedade, depressão, perdas,
-                dificuldades relacionais, questões da identidade, transições de
-                vida. Também recebo quem, sem sintoma claro, sente a necessidade
-                de se conhecer melhor.
+                Procuro oferecer um espaço seguro, confidencial e sem
+                julgamentos, em que iremos compreender a sua história e
+                construir o seu bem-estar.&nbsp;
+                <br />
+                Mais do que “respostas certas”, procuro oferecer um espaço onde
+                possa ser ouvido/a e possa construir as suas próprias respostas.
               </p>
             </div>
           </div>
