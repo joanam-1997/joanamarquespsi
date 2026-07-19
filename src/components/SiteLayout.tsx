@@ -95,7 +95,7 @@ function SiteFooter() {
               <circle cx="12" cy="12" r="4" />
               <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
             </svg>
-            <span>https://www.instagram.com/joanamarques.psi/</span>
+            <span className="sr-only">Instagram</span>
           </a>
         </div>
       </div>
