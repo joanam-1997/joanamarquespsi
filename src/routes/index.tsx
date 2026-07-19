@@ -75,10 +75,9 @@ function Approach() {
           SOBRE O ACOMPANHAMENTO PSICOLÓGICO
         </p>
         <blockquote className="font-serif text-xl md:text-2xl leading-relaxed text-foreground italic">
-          "Parte de nos conhecermos é deixarmos de nos conhecer — abandonarmos as
-          histórias limitadoras que contamos a nós próprios acerca de quem somos,
-          para que não fiquemos presos a elas e possamos viver a nossa vida, não a
-          história que temos vindo a contar a nós próprios acerca dela."
+          "Parte de nos conhecermos é deixarmos de nos conhecer — abandonarmos
+          as histórias limitadoras que contamos a nós próprios acerca de quem
+          somos."
         </blockquote>
         <p className="mt-8 text-muted-foreground leading-relaxed text-lg">
           A minha intervenção baseia-se no modelo psicodinâmico, através do qual
