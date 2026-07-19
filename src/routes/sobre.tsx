@@ -36,7 +36,7 @@ function SobrePage() {
               processos de acompanhamento psicológico, através da abordagem
               psicodinâmica — presencialmente e online.
             </p>
-            <div className="space-y-5 text-foreground/90 leading-relaxed pt-4">
+            <div className="space-y-5 text-lg text-muted-foreground leading-relaxed pt-4">
               <p>
                 Procuro oferecer um espaço seguro, confidencial e sem
                 julgamentos, em que iremos compreender a sua história e
