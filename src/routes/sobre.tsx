@@ -94,20 +94,6 @@ function SobrePage() {
 
             </ul>
           </div>
-          <div>
-            <h2 className="font-serif text-3xl text-foreground mb-6">
-              Abordagem
-            </h2>
-            <p className="text-foreground/90 leading-relaxed">
-              A abordagem psicodinâmica valoriza o inconsciente, a história de
-              cada pessoa e a relação terapêutica como espaço de transformação.
-              Não trabalho com técnicas prescritas: a terapia constrói-se, sessão
-              a sessão, a partir daquilo que emerge.
-            </p>
-            <p className="mt-4 text-foreground/90 leading-relaxed">
-              As sessões têm frequência semanal e duram 50 minutos.
-            </p>
-          </div>
         </div>
       </section>
     </SiteLayout>
