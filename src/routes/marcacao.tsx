@@ -49,16 +49,16 @@ function MarcacaoPage() {
                   CONTACTOS
                 </p>
                 <a
-                  href="mailto:joanatmarques.psi@gmail.com"
+                  href="tel:+351935727106"
                   className="block text-muted-foreground hover:text-foreground transition"
                 >
-                  joanatmarques.psi@gmail.com
+                  +351 935727106
                 </a>
                 <a
-                  href="tel:+351935727106"
+                  href="mailto:joanatmarques.psi@gmail.com"
                   className="block mt-2 text-muted-foreground hover:text-foreground transition"
                 >
-                  +351 935727106
+                  joanatmarques.psi@gmail.com
                 </a>
               </div>
               <div className="border-t border-border/60 pt-6">
