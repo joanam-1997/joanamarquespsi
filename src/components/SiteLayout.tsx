@@ -77,11 +77,11 @@ function SiteFooter() {
           <p>{"\n"}</p>
         </div>
         <div className="space-y-1">
-          <a href="mailto:joanatmarques.psi@gmail.com" className="block text-foreground hover:text-primary transition">
-            joanatmarques.psi@gmail.com
-          </a>
-          <a href="tel:+351935727106" className="block text-muted-foreground hover:text-foreground transition">
+          <a href="tel:+351935727106" className="block text-foreground hover:text-primary transition">
             +351 935727106
+          </a>
+          <a href="mailto:joanatmarques.psi@gmail.com" className="block text-muted-foreground hover:text-foreground transition">
+            joanatmarques.psi@gmail.com
           </a>
           <a
             href="https://instagram.com/joanamarques.psi"
