@@ -38,45 +38,33 @@ function MarcacaoPage() {
           </p>
         </div>
 
-        <div className="mt-16 grid md:grid-cols-5 gap-10">
-          <div className="md:col-span-3" />
-
-
-          <aside className="md:col-span-2">
-            <div className="rounded-3xl bg-secondary/60 p-8 space-y-6 border border-border/60">
-              <div>
-                <p className="text-xs uppercase tracking-[0.25em] text-primary mb-2">
-                  CONTACTOS
-                </p>
-                <a
-                  href="tel:+351935727106"
-                  className="block text-muted-foreground hover:text-foreground transition"
-                >
-                  +351 935727106
-                </a>
-                <a
-                  href="mailto:joanatmarques.psi@gmail.com"
-                  className="block mt-2 text-muted-foreground hover:text-foreground transition"
-                >
-                  joanatmarques.psi@gmail.com
-                </a>
-              </div>
-              <div className="border-t border-border/60 pt-6">
-                <p className="text-xs uppercase tracking-[0.25em] text-primary mb-2">
-                  Consultório
-                </p>
-                <p className="text-foreground">Rua Dominguez Alvarez 44, Piso 4</p>
-                <p className="text-muted-foreground">4100-801 Boavista</p>
-              </div>
-              <div className="border-t border-border/60 pt-6">
-                <p className="text-xs uppercase tracking-[0.25em] text-primary mb-2">
-                  {"\n"}
-                </p>
-                <p className="text-foreground">{"\n"}</p>
-                <p className="text-muted-foreground">{"\n"}</p>
-              </div>
+        <div className="mt-16">
+          <div className="rounded-3xl bg-secondary/60 p-8 space-y-6 border border-border/60">
+            <div>
+              <p className="text-xs uppercase tracking-[0.25em] text-primary mb-2">
+                CONTACTOS
+              </p>
+              <a
+                href="tel:+351935727106"
+                className="block text-muted-foreground hover:text-foreground transition"
+              >
+                +351 935727106
+              </a>
+              <a
+                href="mailto:joanatmarques.psi@gmail.com"
+                className="block mt-2 text-muted-foreground hover:text-foreground transition"
+              >
+                joanatmarques.psi@gmail.com
+              </a>
             </div>
-          </aside>
+            <div className="border-t border-border/60 pt-6">
+              <p className="text-xs uppercase tracking-[0.25em] text-primary mb-2">
+                Consultório
+              </p>
+              <p className="text-foreground">Rua Dominguez Alvarez 44, Piso 4</p>
+              <p className="text-muted-foreground">4100-801 Boavista</p>
+            </div>
+          </div>
         </div>
       </section>
 
