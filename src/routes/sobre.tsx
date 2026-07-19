@@ -85,9 +85,6 @@ function SobrePage() {
                   Faculdade de Psicologia e de Ciências da Educação da Universidade do Porto (FPCEUP)
                 </p>
               </li>
-              <li>
-                <p className="font-medium">Análise pessoal e supervisão contínuas</p>
-              </li>
             </ul>
           </div>
           <div>
