@@ -86,10 +86,11 @@ function SobrePage() {
                 </p>
               </li>
               <li>
-                <p className="text-sm text-muted-foreground">
-                  Invisto continuamente no meu desenvolvimento profissional através da participação regular em ações de formação e eventos científicos.
+                <p className="font-medium">
+                  Invisto continuamente no meu desenvolvimento profissional através de supervisão clínica e da participação regular em ações de formação e eventos científicos.
                 </p>
               </li>
+
 
             </ul>
           </div>
