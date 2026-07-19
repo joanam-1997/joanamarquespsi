@@ -56,7 +56,7 @@ function MarcacaoPage() {
                 </a>
                 <a
                   href="tel:+351935727106"
-                  className="block mt-2 font-serif text-2xl text-foreground hover:text-primary transition"
+                  className="block mt-2 text-muted-foreground hover:text-foreground transition"
                 >
                   +351 935727106
                 </a>
