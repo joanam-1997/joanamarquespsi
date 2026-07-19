@@ -72,7 +72,7 @@ function SiteFooter() {
           </p>
         </div>
         <div className="space-y-1 text-muted-foreground">
-          <p>Rua Dominguez Alvarez 44, 4100-801 Boavista</p>
+          <p>{"\n"}</p>
           <p>{"\n"}</p>
           <p>{"\n"}</p>
         </div>
