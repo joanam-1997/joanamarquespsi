@@ -50,7 +50,7 @@ function MarcacaoPage() {
                 </p>
                 <a
                   href="mailto:joanatmarques.psi@gmail.com"
-                  className="block font-serif text-2xl text-foreground hover:text-primary transition"
+                  className="block text-muted-foreground hover:text-foreground transition"
                 >
                   joanatmarques.psi@gmail.com
                 </a>
