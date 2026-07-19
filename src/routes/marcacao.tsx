@@ -24,7 +24,7 @@ function MarcacaoPage() {
   return (
     <SiteLayout>
       <section className="container-prose py-20 md:py-28">
-        <div className="max-w-2xl">
+        <div>
           <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
             Marcação
           </p>
