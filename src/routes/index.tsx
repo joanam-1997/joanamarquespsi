@@ -10,12 +10,10 @@ function HomePage() {
   return (
     <SiteLayout>
       <Hero />
-      
       <Approach />
     </SiteLayout>
   );
 }
-
 
 function Hero() {
   return (
