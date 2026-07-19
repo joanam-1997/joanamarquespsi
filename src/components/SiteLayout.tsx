@@ -54,7 +54,7 @@ function SiteHeader() {
           to="/marcacao"
           className="md:hidden inline-flex items-center rounded-full bg-primary px-4 py-2 text-xs text-primary-foreground"
         >
-          Marcar Consulta
+          Marcar consulta
         </Link>
       </div>
     </header>
