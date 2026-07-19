@@ -61,7 +61,7 @@ function SobrePage() {
       </section>
 
       <section className="bg-secondary/60 border-y border-border/60">
-        <div className="container-prose py-20 md:py-24 grid md:grid-cols-2 gap-14">
+        <div className="container-prose py-20 md:py-24">
           <div>
             <h2 className="font-serif text-3xl text-foreground mb-6">
               Formação
