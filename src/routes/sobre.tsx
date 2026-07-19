@@ -86,7 +86,7 @@ function SobrePage() {
                 </p>
               </li>
               <li>
-                <p className="font-medium">
+                <p className="font-medium text-sm">
                   Invisto continuamente no meu desenvolvimento profissional através de supervisão clínica e da participação regular em ações de formação e eventos científicos.
                 </p>
               </li>
