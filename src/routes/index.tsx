@@ -74,7 +74,7 @@ function Approach() {
         <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
           SOBRE O ACOMPANHAMENTO PSICOLÓGICO
         </p>
-        <blockquote className="font-serif text-3xl md:text-4xl leading-snug text-foreground italic">
+        <blockquote className="font-serif text-xl md:text-2xl leading-relaxed text-foreground italic">
           "Parte de nos conhecermos é deixarmos de nos conhecer — abandonarmos as
           histórias limitadoras que contamos a nós próprios acerca de quem somos,
           para que não fiquemos presos a elas e possamos viver a nossa vida, não a
