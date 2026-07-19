@@ -33,7 +33,7 @@ function ServicosPage() {
       </section>
 
       <section className="container-prose pb-24">
-        <div className="max-w-3xl">
+        <div>
           <PriceRow
             label="Consulta psicológica individual"
             price="50 €"
