@@ -67,7 +67,7 @@ function Hero() {
 
 function Approach() {
   return (
-    <section className="container-prose py-24 md:py-32">
+    <section className="container-prose py-12 md:py-16">
       <div className="max-w-3xl">
         <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
           SOBRE O ACOMPANHAMENTO PSICOLÓGICO
