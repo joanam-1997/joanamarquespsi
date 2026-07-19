@@ -79,6 +79,9 @@ function Approach() {
           as histórias limitadoras que contamos a nós próprios acerca de quem
           somos."
         </blockquote>
+        <cite className="mt-4 block text-sm not-italic text-muted-foreground">
+          — Lori Gottlieb
+        </cite>
         <p className="mt-8 text-muted-foreground leading-relaxed text-lg">
           A minha intervenção baseia-se no modelo psicodinâmico, através do qual
           procuro compreender a história e as singularidades de cada pessoa,
