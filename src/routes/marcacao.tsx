@@ -32,8 +32,9 @@ function MarcacaoPage() {
             Marcar uma consulta
           </h1>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            O primeiro contacto é feito por email ou telefone. Depois, marcamos
-            uma primeira consulta em horário compatível.
+            Se pretender agendar uma consulta ou esclarecer alguma questão, pode
+            contactar-me através do e-mail ou por telefone. Responderei com a
+            maior brevidade possível.
           </p>
         </div>
 
