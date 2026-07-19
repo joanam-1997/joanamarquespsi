@@ -80,6 +80,12 @@ function SobrePage() {
                 </p>
               </li>
               <li>
+                <p className="font-medium">Licenciatura em Psicologia</p>
+                <p className="text-sm text-muted-foreground">
+                  Faculdade de Psicologia e de Ciências da Educação da Universidade do Porto (FPCEUP)
+                </p>
+              </li>
+              <li>
                 <p className="font-medium">Análise pessoal e supervisão contínuas</p>
               </li>
             </ul>
