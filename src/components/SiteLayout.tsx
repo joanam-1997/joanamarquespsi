@@ -72,9 +72,8 @@ function SiteFooter() {
           </p>
         </div>
         <div className="space-y-1 text-muted-foreground">
-          <p>{"\n"}</p>
-          <p>{"\n"}</p>
-          <p>{"\n"}</p>
+          <p>Rua Dominguez Alvarez 44</p>
+          <p>4100-801 Boavista</p>
         </div>
         <div className="space-y-1">
           <a href="tel:+351935727106" className="block text-foreground hover:text-primary transition">
