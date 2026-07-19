@@ -47,7 +47,7 @@ function ServicosPage() {
 
 function PriceRow({ label, price, note }: { label: string; price: string; note: string }) {
   return (
-    <div className="border-t border-border/70 pt-6 flex items-baseline justify-between gap-6">
+    <div className="border-y border-border/70 py-6 flex items-baseline justify-between gap-6">
       <div>
         <h3 className="font-serif text-2xl text-foreground">{label}</h3>
         <p className="mt-1 text-muted-foreground text-sm">{note}</p>
