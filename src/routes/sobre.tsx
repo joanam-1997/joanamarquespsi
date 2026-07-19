@@ -85,6 +85,12 @@ function SobrePage() {
                   Faculdade de Psicologia e de Ciências da Educação da Universidade do Porto (FPCEUP)
                 </p>
               </li>
+              <li>
+                <p className="text-sm text-muted-foreground">
+                  Invisto continuamente no meu desenvolvimento profissional através da participação regular em ações de formação e eventos científicos.
+                </p>
+              </li>
+
             </ul>
           </div>
           <div>
