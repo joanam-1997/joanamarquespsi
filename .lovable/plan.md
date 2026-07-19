@@ -1,9 +1,14 @@
-## Alteração
+Uniformizar a tipografia do parágrafo "Procuro oferecer um espaço seguro..." para igualar o parágrafo anterior ("Sou psicóloga, com consultório na Boavista...").
 
-Em `src/routes/index.tsx`, na secção Approach, substituir a citação atual pelo excerto:
+## O que muda
 
-> "Parte de nos conhecermos é deixarmos de nos conhecer — abandonarmos as histórias limitadoras que contamos a nós próprios acerca de quem somos."
+Em `src/routes/sobre.tsx`, na secção "Sobre mim":
 
-Mantém-se o estilo (serif, itálico, tamanho já reduzido anteriormente). Nenhuma outra alteração.
+- O bloco `<div className="space-y-5 text-foreground/90 leading-relaxed pt-4">` passa a usar as mesmas classes do parágrafo anterior: `text-lg text-muted-foreground leading-relaxed`.
+- O `<p>` interno herda esse estilo (mesmo tamanho, mesma cor mais suave, mesmo espaçamento entre linhas).
+- Mantém-se o `pt-4` para preservar o espaçamento vertical entre os dois parágrafos.
+- Nenhum outro conteúdo é alterado (texto, quebras de linha e restante da página ficam iguais).
 
-Se preferires um corte diferente (mais curto ou noutro ponto da frase), diz-me antes de aprovar.
+## Resultado visual
+
+Os dois parágrafos passam a ler-se como um bloco coerente — mesma fonte (Nunito Sans, já herdada), mesmo tamanho `text-lg` e mesma cor `muted-foreground`, em vez do contraste atual entre texto maior/claro e texto menor/mais escuro.
