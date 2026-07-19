@@ -68,15 +68,15 @@ function SobrePage() {
             </h2>
             <ul className="space-y-4 text-foreground/90">
               <li>
-                <p className="font-medium">Mestrado em Psicologia Clínica</p>
+                <p className="font-medium">Curso de Formação Profissional: Intervenção Psicológica Com Pessoas LGBTQ</p>
                 <p className="text-sm text-muted-foreground">
-                  Faculdade de Psicologia
+                  Ordem dos Psicólogos Portugueses
                 </p>
               </li>
               <li>
-                <p className="font-medium">Formação em Psicoterapia Psicanalítica</p>
+                <p className="font-medium">Mestrado em Psicologia Clínica</p>
                 <p className="text-sm text-muted-foreground">
-                  Sociedade Portuguesa de Psicanálise
+                  Faculdade de Psicologia e de Ciências da Educação da Universidade do Porto (FPCEUP)
                 </p>
               </li>
               <li>
