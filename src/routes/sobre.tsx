@@ -32,7 +32,7 @@ function SobrePage() {
               Joana Marques
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Sou psicóloga, com consultório no Porto. Acompanho adultos em
+              Sou psicóloga, com consultório na Boavista. Acompanho adultos em
               processos de acompanhamento psicológico, através da abordagem
               psicodinâmica — presencialmente e online.
             </p>
