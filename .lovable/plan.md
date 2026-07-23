@@ -1,14 +1,31 @@
-Uniformizar a tipografia do parágrafo "Procuro oferecer um espaço seguro..." para igualar o parágrafo anterior ("Sou psicóloga, com consultório na Boavista...").
 
-## O que muda
+## Objetivo
+Criar uma Política de Privacidade simples e conforme com o RGPD para o site, refletindo o facto de o site ser meramente informativo (sem formulários, sem analytics, sem cookies de tracking).
 
-Em `src/routes/sobre.tsx`, na secção "Sobre mim":
+## O que vou criar
 
-- O bloco `<div className="space-y-5 text-foreground/90 leading-relaxed pt-4">` passa a usar as mesmas classes do parágrafo anterior: `text-lg text-muted-foreground leading-relaxed`.
-- O `<p>` interno herda esse estilo (mesmo tamanho, mesma cor mais suave, mesmo espaçamento entre linhas).
-- Mantém-se o `pt-4` para preservar o espaçamento vertical entre os dois parágrafos.
-- Nenhum outro conteúdo é alterado (texto, quebras de linha e restante da página ficam iguais).
+**Nova rota:** `src/routes/politica-privacidade.tsx`
+- Head com título e meta description próprios
+- Página mantida no mesmo design system (Sage & Cream, Lora + Nunito Sans)
+- Conteúdo dividido em secções curtas:
+  1. Responsável pelo tratamento (Joana Marques, OPP 30473, morada, email, telefone)
+  2. Que dados são recolhidos através do site — nenhum (site apenas informativo)
+  3. Dados recolhidos fora do site — quando o utilizador contacta por email/telefone/WhatsApp (nome, contacto, conteúdo da mensagem) e, em caso de acompanhamento, os dados clínicos ficam sujeitos a sigilo profissional e ao Código Deontológico da OPP
+  4. Finalidade e base legal (resposta a contactos, execução de contrato, obrigações legais/deontológicas)
+  5. Conservação dos dados
+  6. Partilha com terceiros — não há; exceção legal
+  7. Cookies e analytics — o site não utiliza cookies de tracking nem ferramentas de analytics
+  8. Direitos do titular (acesso, retificação, apagamento, oposição, portabilidade, reclamação à CNPD)
+  9. Contacto para exercer direitos
+  10. Data da última atualização
 
-## Resultado visual
+**Rodapé:** `src/components/SiteLayout.tsx`
+- Adicionar link discreto "Política de Privacidade" no rodapé (junto ao copyright)
 
-Os dois parágrafos passam a ler-se como um bloco coerente — mesma fonte (Nunito Sans, já herdada), mesmo tamanho `text-lg` e mesma cor `muted-foreground`, em vez do contraste atual entre texto maior/claro e texto menor/mais escuro.
+## O que não faço
+- Sem página de Termos de Utilização (não necessária num site informativo)
+- Sem banner de cookies (não há cookies de tracking)
+- Sem alterações a outras páginas
+
+## Nota
+O texto é redigido em português, com linguagem clara e não jurídica. Podes rever e ajustar qualquer secção depois.
