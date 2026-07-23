@@ -101,10 +101,22 @@ function SiteFooter() {
       <div className="border-t border-border/60">
         <div className="container-prose py-5 text-xs text-muted-foreground flex flex-wrap justify-between gap-2">
           <span>© {new Date().getFullYear()} Joana Marques. Todos os direitos reservados.</span>
-          <Link to="/politica-privacidade" className="hover:text-foreground transition">
-            Política de Privacidade
-          </Link>
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <Link to="/politica-privacidade" className="hover:text-foreground transition">
+              Política de Privacidade
+            </Link>
+            <span aria-hidden="true">·</span>
+            <a
+              href="https://www.livroreclamacoes.pt/inicio"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="hover:text-foreground transition"
+            >
+              Livro de Reclamações
+            </a>
+          </div>
         </div>
+
       </div>
 
     </footer>
