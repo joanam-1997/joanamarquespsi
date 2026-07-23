@@ -101,9 +101,12 @@ function SiteFooter() {
       <div className="border-t border-border/60">
         <div className="container-prose py-5 text-xs text-muted-foreground flex flex-wrap justify-between gap-2">
           <span>© {new Date().getFullYear()} Joana Marques. Todos os direitos reservados.</span>
-          <span>{"\n"}</span>
+          <Link to="/politica-privacidade" className="hover:text-foreground transition">
+            Política de Privacidade
+          </Link>
         </div>
       </div>
+
     </footer>
   );
 }
