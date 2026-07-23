@@ -71,7 +71,7 @@ function SiteFooter() {
             Psicóloga · Porto
           </p>
           <p className="text-muted-foreground mt-1 text-xs">
-            Estabelecimento registado na ERS n.º ______
+            Entidade registada na ERS n.º&nbsp;E172096
           </p>
         </div>
 
