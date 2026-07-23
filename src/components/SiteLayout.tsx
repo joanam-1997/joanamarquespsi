@@ -70,7 +70,11 @@ function SiteFooter() {
           <p className="text-muted-foreground mt-1">
             Psicóloga · Porto
           </p>
+          <p className="text-muted-foreground mt-1 text-xs">
+            Estabelecimento registado na ERS n.º ______
+          </p>
         </div>
+
         <div className="space-y-1 text-muted-foreground">
           <p>Rua Dominguez Alvarez 44, Piso 4</p>
           <p>4100-801 Boavista</p>
