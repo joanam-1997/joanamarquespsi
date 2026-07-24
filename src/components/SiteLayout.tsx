@@ -67,7 +67,7 @@ function SiteFooter() {
       <div className="container-prose py-12 grid gap-8 md:grid-cols-3 text-sm">
         <div>
           <p className="font-serif text-lg text-foreground">Joana Marques · Psicóloga · Porto</p>
-          <p className="text-muted-foreground mt-1">
+          <p className="text-muted-foreground mt-1 text-xs">
             Cédula Profissional OPP n.º 30473
           </p>
           <p className="text-muted-foreground mt-1 text-xs">
