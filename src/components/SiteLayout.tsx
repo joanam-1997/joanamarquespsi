@@ -36,7 +36,7 @@ function SiteHeader() {
             Serviços
           </Link>
           <a
-            href="https://substack.com"
+            href="https://substack.com/@joanamarquespsi"
             target="_blank"
             rel="noreferrer noopener"
             className={linkBase}
