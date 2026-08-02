@@ -1,13 +1,13 @@
 ## Objetivo
-Cumprir a obrigação legal de disponibilizar acesso ao Livro de Reclamações Online, adicionando um link discreto no rodapé do site.
+Ligar o item de menu "Escrita" ao Substack pessoal.
 
 ## Alterações
 
 **`src/components/SiteLayout.tsx`**
-- No rodapé, junto ao link existente "Política de Privacidade", acrescentar um segundo link "Livro de Reclamações" que aponta para `https://www.livroreclamacoes.pt/inicio`.
-- Abre em nova aba (`target="_blank"` + `rel="noreferrer noopener"`), com o mesmo estilo discreto do link da Política de Privacidade, separados por um ponto médio (·) para manter a consistência visual.
+- No cabeçalho, o link "Escrita ↗" aponta atualmente para `https://substack.com` (genérico).
+- Passa a apontar para `https://substack.com/@joanamarquespsi`.
+- Mantém `target="_blank"` e `rel="noreferrer noopener"`, o mesmo estilo e a seta ↗.
 
 ## Fora do âmbito
-- Sem selo/imagem oficial (apenas texto, conforme pedido).
-- Sem página interna dedicada — o link vai diretamente para a plataforma oficial.
-- Sem alterações à Política de Privacidade nem a outras páginas.
+- Sem nova página interna de escrita nem listagem de artigos.
+- Sem alterações ao rodapé ou a outras páginas.
