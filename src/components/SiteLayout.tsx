@@ -76,7 +76,7 @@ function SiteFooter() {
         </div>
 
         <div className="space-y-1 text-muted-foreground">
-          <p>Rua Dominguez Alvarez 44, Piso 4</p>
+          <p>Rua Dominguez Alvarez 44, Piso 4, Sala 4.12</p>
           <p>4100-801 Boavista</p>
         </div>
         <div className="space-y-1">
