@@ -61,7 +61,7 @@ function MarcacaoPage() {
               <p className="text-xs uppercase tracking-[0.25em] text-primary mb-2">
                 Consultório
               </p>
-              <p className="text-foreground">Rua Dominguez Alvarez 44, Piso 4</p>
+              <p className="text-foreground">Rua Dominguez Alvarez 44, Piso 4, Sala 4.12</p>
               <p className="text-muted-foreground">4100-801 Boavista</p>
             </div>
           </div>
