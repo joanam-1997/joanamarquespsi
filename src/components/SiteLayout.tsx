@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 
 export function SiteLayout({ children }: { children: ReactNode }) {
@@ -12,16 +12,19 @@ export function SiteLayout({ children }: { children: ReactNode }) {
 }
 
 function SiteHeader() {
+  const [open, setOpen] = useState(false);
   const linkBase =
     "text-sm text-foreground/70 hover:text-foreground transition-colors";
+  const mobileLink =
+    "block py-2 text-base text-foreground/80 hover:text-foreground transition-colors";
   return (
     <header className="border-b border-border/60 bg-background/80 backdrop-blur sticky top-0 z-40">
-      <div className="container-prose flex items-center justify-between py-5">
-        <Link to="/" className="group flex items-baseline gap-2">
+      <div className="container-prose flex items-center justify-between gap-4 py-5">
+        <Link to="/" className="group flex min-w-0 items-baseline gap-2" onClick={() => setOpen(false)}>
           <span className="font-serif text-xl tracking-tight text-foreground">
             Joana Marques
           </span>
-          <span className="text-xs uppercase tracking-[0.2em] text-primary">
+          <span className="hidden sm:inline text-xs uppercase tracking-[0.2em] text-primary">
             Psicóloga
           </span>
         </Link>
@@ -50,13 +53,61 @@ function SiteHeader() {
             Marcar consulta
           </Link>
         </nav>
-        <Link
-          to="/marcacao"
-          className="md:hidden inline-flex items-center rounded-full bg-primary px-4 py-2 text-xs text-primary-foreground"
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-expanded={open}
+          aria-controls="mobile-menu"
+          aria-label={open ? "Fechar menu" : "Abrir menu"}
+          className="md:hidden shrink-0 inline-flex items-center justify-center rounded-full border border-border p-2 text-foreground"
         >
-          Marcar consulta
-        </Link>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+            {open ? (
+              <>
+                <line x1="5" y1="5" x2="19" y2="19" />
+                <line x1="19" y1="5" x2="5" y2="19" />
+              </>
+            ) : (
+              <>
+                <line x1="4" y1="7" x2="20" y2="7" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="17" x2="20" y2="17" />
+              </>
+            )}
+          </svg>
+        </button>
       </div>
+      {open && (
+        <div id="mobile-menu" className="md:hidden border-t border-border/60 bg-background">
+          <nav className="container-prose py-4">
+            <Link to="/" className={mobileLink} activeOptions={{ exact: true }} activeProps={{ className: "text-foreground font-medium" }} onClick={() => setOpen(false)}>
+              Página inicial
+            </Link>
+            <Link to="/sobre" className={mobileLink} activeProps={{ className: "text-foreground font-medium" }} onClick={() => setOpen(false)}>
+              Sobre
+            </Link>
+            <Link to="/servicos" className={mobileLink} activeProps={{ className: "text-foreground font-medium" }} onClick={() => setOpen(false)}>
+              Serviços
+            </Link>
+            <a
+              href="https://substack.com/@joanamarquespsi"
+              target="_blank"
+              rel="noreferrer noopener"
+              className={mobileLink}
+              onClick={() => setOpen(false)}
+            >
+              Escrita ↗
+            </a>
+            <Link
+              to="/marcacao"
+              onClick={() => setOpen(false)}
+              className="mt-3 inline-flex items-center rounded-full bg-primary px-5 py-2 text-sm text-primary-foreground hover:bg-primary/90 transition-colors"
+            >
+              Marcar consulta
+            </Link>
+          </nav>
+        </div>
+      )}
     </header>
   );
 }
