@@ -128,7 +128,7 @@ function SiteFooter() {
 
         <div className="space-y-1 text-muted-foreground">
           <p>Rua Dominguez Alvarez 44, Piso 4, Sala 4.6</p>
-          <p>4100-801 Boavista</p>
+          <p>4150-801 Porto</p>
         </div>
         <div className="space-y-1">
           <a href="tel:+351935727106" className="block text-foreground hover:text-primary transition">
