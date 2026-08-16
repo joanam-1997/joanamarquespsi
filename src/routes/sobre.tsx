@@ -29,7 +29,7 @@ function SobrePage() {
           <div className="md:col-span-7 space-y-6">
             <p className="text-xs uppercase tracking-[0.3em] text-primary">Sobre mim</p>
             <h1 className="font-serif text-5xl md:text-6xl text-foreground leading-tight">
-              Joana Marques
+              Olá, sou a Joana
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Sou psicóloga, com consultório na Boavista. Acompanho adultos em
