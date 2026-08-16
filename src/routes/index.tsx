@@ -27,10 +27,9 @@ function Hero() {
             Um espaço para <em className="text-primary not-italic">sentir</em>,
             <br /> pensar e habitar-se.
           </h1>
-          <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Acompanhamento psicológico, com base na abordagem psicodinâmica, para
-            adultos que procuram compreender-se com mais profundidade — no seu
-            tempo, sem pressa.
+          <p className="text-lg text-muted-foreground max-w-xl leading-relaxed whitespace-pre-line">
+            Acompanhamento psicológico para adultos, no Porto, com uma abordagem psicodinâmica.
+            {"\n"}Um espaço de escuta e reflexão para o ajudar a compreender o que sente, reconhecer padrões e construir novas formas de se relacionar consigo e com os outros.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
