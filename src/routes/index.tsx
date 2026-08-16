@@ -27,10 +27,14 @@ function Hero() {
             Um espaço para <em className="text-primary not-italic">sentir</em>,
             <br /> pensar e habitar-se.
           </h1>
-          <p className="text-lg text-muted-foreground max-w-xl leading-relaxed whitespace-pre-line">
+        <div className="space-y-5">
+          <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
             Acompanhamento psicológico para adultos, no Porto ou online, com uma abordagem psicodinâmica.
-            {"\n"}Um espaço de escuta e reflexão para o ajudar a compreender o que sente, reconhecer padrões e construir novas formas de se relacionar consigo e com os outros.
           </p>
+          <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
+            Um espaço de escuta e reflexão para o ajudar a compreender o que sente, reconhecer padrões e construir novas formas de se relacionar consigo e com os outros.
+          </p>
+        </div>
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               to="/marcacao"
