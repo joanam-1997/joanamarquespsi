@@ -35,7 +35,7 @@ function SobrePage() {
               Sou psicóloga e acompanho adultos em diferentes momentos das suas
               vidas — presencialmente e online.
             </p>
-            <div className="space-y-5 text-lg text-muted-foreground leading-relaxed pt-2">
+            <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
               <p>
                 Procuro oferecer um espaço seguro, confidencial e sem
                 julgamentos, em que iremos compreender a sua história e
