@@ -32,9 +32,8 @@ function SobrePage() {
               Olá, sou a Joana
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Sou psicóloga, com consultório na Boavista. Acompanho adultos em
-              processos de acompanhamento psicológico, através da abordagem
-              psicodinâmica — presencialmente e online.
+              Sou psicóloga e acompanho adultos em diferentes momentos das suas
+              vidas — presencialmente e online.
             </p>
             <div className="space-y-5 text-lg text-muted-foreground leading-relaxed pt-4">
               <p>
