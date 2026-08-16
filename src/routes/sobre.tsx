@@ -39,8 +39,9 @@ function SobrePage() {
               <p>
                 Procuro oferecer um espaço seguro, confidencial e sem
                 julgamentos, em que iremos compreender a sua história e
-                construir o seu bem-estar.&nbsp;
-                <br />
+                construir o seu bem-estar.
+              </p>
+              <p>
                 Mais do que “respostas certas”, procuro oferecer um espaço onde
                 possa ser ouvido/a e possa construir as suas próprias respostas.
               </p>
