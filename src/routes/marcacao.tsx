@@ -56,6 +56,14 @@ function MarcacaoPage() {
               >
                 joanatmarques.psi@gmail.com
               </a>
+              <a
+                href="https://wa.me/+351935727106"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="block mt-2 text-muted-foreground hover:text-foreground transition"
+              >
+                WhatsApp
+              </a>
             </div>
             <div className="border-t border-border/60 pt-6">
               <p className="text-xs uppercase tracking-[0.25em] text-primary mb-2">

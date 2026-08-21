@@ -80,6 +80,12 @@ function PoliticaPrivacidade() {
             mensagem.
           </p>
           <p>
+            Se optar por contactar via WhatsApp, está a usar um serviço
+            prestado pela Meta Platforms, Inc., sujeito à sua própria política
+            de privacidade. Os dados partilhados nessa plataforma são tratados
+            pela Meta e não por este site.
+          </p>
+          <p>
             Caso venha a iniciar acompanhamento psicológico, os dados clínicos
             recolhidos no âmbito da consulta são tratados de forma autónoma,
             estando sujeitos ao sigilo profissional e ao Código Deontológico da
