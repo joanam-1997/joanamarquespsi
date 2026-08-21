@@ -117,9 +117,15 @@ function PoliticaPrivacidade() {
 
         <Section title="6. Partilha com terceiros">
           <p>
-            Os dados pessoais não são partilhados, cedidos ou vendidos a
-            terceiros, salvo quando tal seja exigido por lei ou por autoridade
-            competente.
+            Os dados pessoais recolhidos diretamente por mim não são
+            partilhados, cedidos ou vendidos a terceiros, salvo quando tal seja
+            exigido por lei ou por autoridade competente.
+          </p>
+          <p>
+            Os links externos disponíveis no site — nomeadamente WhatsApp,
+            Instagram, Substack e Livro de Reclamações Eletrónico — encaminham
+            para plataformas de terceiros, cada uma com as suas próprias
+            políticas de privacidade e práticas de tratamento de dados.
           </p>
         </Section>
 
