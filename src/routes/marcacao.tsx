@@ -31,10 +31,11 @@ function MarcacaoPage() {
           <h1 className="font-serif text-5xl md:text-6xl text-foreground leading-tight">
             Marcar uma consulta
           </h1>
-          <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
+          <p className="mt-6 text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
             Se pretender agendar uma consulta ou esclarecer alguma questão, pode
             contactar-me através do e-mail ou por telefone. Responderei com a
             maior brevidade possível.
+            {"\n"}As consultas são realizadas mediante marcação prévia.
           </p>
         </div>
 
@@ -46,15 +47,15 @@ function MarcacaoPage() {
               </p>
               <a
                 href="tel:+351935727106"
-                className="block text-muted-foreground hover:text-foreground transition"
+                className="block text-muted-foreground hover:text-foreground transition whitespace-pre-line"
               >
-                +351 935727106
+                Telefone:{"\n"}+351 935727106
               </a>
               <a
                 href="mailto:joanatmarques.psi@gmail.com"
-                className="block mt-2 text-muted-foreground hover:text-foreground transition"
+                className="block mt-2 text-muted-foreground hover:text-foreground transition whitespace-pre-line"
               >
-                joanatmarques.psi@gmail.com
+                Email:{"\n"}joanatmarques.psi@gmail.com
               </a>
               <a
                 href="https://wa.me/+351935727106"
@@ -62,7 +63,7 @@ function MarcacaoPage() {
                 rel="noreferrer noopener"
                 className="block mt-2 text-muted-foreground hover:text-foreground transition"
               >
-                WhatsApp
+                Enviar mensagem pelo WhatsApp
               </a>
             </div>
             <div className="border-t border-border/60 pt-6">
