@@ -33,8 +33,8 @@ function MarcacaoPage() {
           </h1>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
             Se pretender agendar uma consulta ou esclarecer alguma questão, pode
-            contactar-me através do e-mail ou por telefone. Responderei com a
-            maior brevidade possível.
+            contactar-me através do e-mail, whatsapp ou por telefone. Responderei
+            com a maior brevidade possível.
             {"\n"}As consultas são realizadas mediante marcação prévia.
           </p>
         </div>
