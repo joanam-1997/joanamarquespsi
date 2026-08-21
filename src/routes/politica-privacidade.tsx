@@ -80,6 +80,12 @@ function PoliticaPrivacidade() {
             mensagem.
           </p>
           <p>
+            Se optar por contactar via WhatsApp, está a usar um serviço
+            prestado pela Meta Platforms, Inc., sujeito à sua própria política
+            de privacidade. Os dados partilhados nessa plataforma são tratados
+            pela Meta e não por este site.
+          </p>
+          <p>
             Caso venha a iniciar acompanhamento psicológico, os dados clínicos
             recolhidos no âmbito da consulta são tratados de forma autónoma,
             estando sujeitos ao sigilo profissional e ao Código Deontológico da
@@ -111,9 +117,15 @@ function PoliticaPrivacidade() {
 
         <Section title="6. Partilha com terceiros">
           <p>
-            Os dados pessoais não são partilhados, cedidos ou vendidos a
-            terceiros, salvo quando tal seja exigido por lei ou por autoridade
-            competente.
+            Os dados pessoais recolhidos diretamente por mim não são
+            partilhados, cedidos ou vendidos a terceiros, salvo quando tal seja
+            exigido por lei ou por autoridade competente.
+          </p>
+          <p>
+            Os links externos disponíveis no site — nomeadamente WhatsApp,
+            Instagram, Substack e Livro de Reclamações Eletrónico — encaminham
+            para plataformas de terceiros, cada uma com as suas próprias
+            políticas de privacidade e práticas de tratamento de dados.
           </p>
         </Section>
 
