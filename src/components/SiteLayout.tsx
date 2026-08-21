@@ -137,20 +137,36 @@ function SiteFooter() {
           <a href="mailto:joanatmarques.psi@gmail.com" className="block text-muted-foreground hover:text-foreground transition">
             joanatmarques.psi@gmail.com
           </a>
-          <a
-            href="https://instagram.com/joanamarques.psi"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="inline-flex items-center gap-1.5 pt-2 text-muted-foreground hover:text-foreground transition"
-            aria-label="Instagram"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <rect x="3" y="3" width="18" height="18" rx="5" />
-              <circle cx="12" cy="12" r="4" />
-              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
-            </svg>
-            <span className="sr-only">Instagram</span>
-          </a>
+          <div className="flex items-center gap-3 pt-2">
+            <a
+              href="https://instagram.com/joanamarques.psi"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex items-center text-muted-foreground hover:text-foreground transition"
+              aria-label="Instagram"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+              </svg>
+              <span className="sr-only">Instagram</span>
+            </a>
+            <a
+              href="https://wa.me/+351935727106"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex items-center text-muted-foreground hover:text-foreground transition"
+              aria-label="WhatsApp"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+                <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" fill="currentColor" stroke="none" />
+                <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" fill="currentColor" stroke="none" />
+              </svg>
+              <span className="sr-only">WhatsApp</span>
+            </a>
+          </div>
         </div>
       </div>
       <div className="border-t border-border/60">
