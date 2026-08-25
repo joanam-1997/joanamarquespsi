@@ -70,7 +70,7 @@ function MarcacaoPage() {
               <p className="text-xs uppercase tracking-[0.25em] text-primary mb-2">
                 Consultório
               </p>
-              <p className="text-foreground">Rua Dominguez Alvarez 44, Piso 4, Sala 4.6</p>
+              <p className="text-foreground">Rua Dominguez Alvarez 44</p>
               <p className="text-muted-foreground">4150-801 Porto</p>
             </div>
           </div>
