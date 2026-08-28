@@ -85,9 +85,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Joana Marques — Psicóloga Clínica no Porto" },
       {
         property: "og:description",
-        content:
-          "Um espaço de escuta e reflexão. Psicoterapia de abordagem psicodinâmica no Porto.",
-      },
+          content:
+          "Um espaço de escuta e reflexão. Consultas de psicologia com abordagem psicodinâmica no Porto e online.",
+        },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
