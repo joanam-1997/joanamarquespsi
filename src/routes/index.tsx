@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import heroImg from "@/assets/hero.jpg";
 import consultorioAsset from "@/assets/consultorio.jpg.asset.json";
+
 
 export const Route = createFileRoute("/")({
   component: HomePage,
@@ -57,54 +57,41 @@ function Consultorio() {
 function Hero() {
   return (
     <section className="container-prose pt-16 pb-24 md:pt-24 md:pb-32">
-      <div className="grid md:grid-cols-12 gap-10 items-center">
-        <div className="md:col-span-7 space-y-8">
-          <p className="text-xs uppercase tracking-[0.3em] text-primary">
-            PSICOLOGIA · PORTO
-          </p>
-          <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-foreground">
-            Um espaço para <em className="text-primary not-italic">sentir</em>,
-            <br /> pensar e habitar-se.
-          </h1>
+      <div className="max-w-3xl space-y-8">
+        <p className="text-xs uppercase tracking-[0.3em] text-primary">
+          PSICOLOGIA · PORTO
+        </p>
+        <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-foreground">
+          Um espaço para <em className="text-primary not-italic">sentir</em>,
+          <br /> pensar e habitar-se.
+        </h1>
         <div className="space-y-5">
-          <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
+          <p className="text-lg text-muted-foreground leading-relaxed">
             Acompanhamento psicológico para adultos, no Porto ou online, com uma abordagem psicodinâmica.
           </p>
-          <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
+          <p className="text-lg text-muted-foreground leading-relaxed">
             Um espaço de escuta e reflexão para o ajudar a compreender o que sente, reconhecer padrões e construir novas formas de se relacionar consigo e com os outros.
           </p>
         </div>
-          <div className="flex flex-wrap gap-3 pt-2">
-            <Link
-              to="/marcacao"
-              className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-sm text-primary-foreground hover:bg-primary/90 transition"
-            >
-              Marcar consulta
-            </Link>
-            <Link
-              to="/sobre"
-              className="inline-flex items-center rounded-full border border-border px-6 py-3 text-sm text-foreground hover:bg-accent/30 transition"
-            >
-              Conhecer o meu percurso
-            </Link>
-          </div>
-        </div>
-        <div className="md:col-span-5">
-          <div className="relative">
-            <div className="absolute -inset-4 rounded-[2rem] bg-accent/40 rotate-2" aria-hidden />
-            <img
-              src={heroImg}
-              alt="Consultório sereno com poltrona junto à janela"
-              width={1024}
-              height={1024}
-              className="relative rounded-[1.75rem] object-cover w-full aspect-square shadow-soft"
-            />
-          </div>
+        <div className="flex flex-wrap gap-3 pt-2">
+          <Link
+            to="/marcacao"
+            className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-sm text-primary-foreground hover:bg-primary/90 transition"
+          >
+            Marcar consulta
+          </Link>
+          <Link
+            to="/sobre"
+            className="inline-flex items-center rounded-full border border-border px-6 py-3 text-sm text-foreground hover:bg-accent/30 transition"
+          >
+            Conhecer o meu percurso
+          </Link>
         </div>
       </div>
     </section>
   );
 }
+
 
 
 function Approach() {
