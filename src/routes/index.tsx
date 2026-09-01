@@ -61,7 +61,7 @@ function Consultorio() {
 function Hero() {
   return (
     <section className="container-prose pt-16 pb-24 md:pt-24 md:pb-32">
-      <div className="max-w-2xl space-y-8">
+      <div className="space-y-8">
         <p className="text-xs uppercase tracking-[0.3em] text-primary">
           PSICOLOGIA · PORTO
         </p>
