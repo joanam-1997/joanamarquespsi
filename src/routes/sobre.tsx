@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import aboutImg from "@/assets/about.jpg";
+import aboutImg from "@/assets/joana-retrato.jpeg.asset.json";
 
 export const Route = createFileRoute("/sobre")({
   head: () => ({
@@ -49,11 +49,11 @@ function SobrePage() {
           </div>
           <div className="md:col-span-5 md:sticky md:top-28">
             <img
-              src={aboutImg}
-              alt="Detalhe do consultório: moldura e folha ao sol"
+              src={aboutImg.url}
+              alt="Joana Marques, psicóloga, no seu consultório no Porto"
               loading="lazy"
-              width={1024}
-              height={1024}
+              width={1440}
+              height={1920}
               className="rounded-[1.75rem] object-cover w-full aspect-[4/5] shadow-soft"
             />
           </div>
