@@ -23,20 +23,18 @@ function Consultorio() {
       <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
         O CONSULTÓRIO
       </p>
-      <div className="grid md:grid-cols-12 gap-10 items-center">
-        <div className="md:col-span-7">
-          <div className="relative">
-            <div className="absolute -inset-4 rounded-[2rem] bg-accent/40 -rotate-2" aria-hidden />
-            <img
-              src={consultorioImg}
-              alt="Consultório de psicologia na Boavista, Porto, com duas poltronas frente a frente"
-              loading="lazy"
-              className="relative rounded-[1.75rem] w-full object-cover aspect-[4/3] shadow-soft"
-            />
-          </div>
+      <div className="space-y-10">
+        <div className="relative">
+          <div className="absolute -inset-4 rounded-[2rem] bg-accent/40 -rotate-2" aria-hidden />
+          <img
+            src={consultorioImg}
+            alt="Consultório de psicologia na Boavista, Porto, com duas poltronas frente a frente"
+            loading="lazy"
+            className="relative rounded-[1.75rem] w-full object-cover aspect-[4/3] shadow-soft"
+          />
         </div>
 
-        <div className="md:col-span-5 space-y-5">
+        <div className="space-y-5">
           <h2 className="font-serif text-3xl md:text-4xl leading-tight text-foreground">
             Um espaço calmo e reservado
           </h2>
@@ -61,7 +59,7 @@ function Consultorio() {
 function Hero() {
   return (
     <section className="container-prose pt-16 pb-24 md:pt-24 md:pb-32">
-      <div className="max-w-2xl space-y-8">
+      <div className="space-y-8">
         <p className="text-xs uppercase tracking-[0.3em] text-primary">
           PSICOLOGIA · PORTO
         </p>
