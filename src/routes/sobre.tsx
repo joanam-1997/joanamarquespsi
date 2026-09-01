@@ -52,8 +52,8 @@ function SobrePage() {
               src={aboutImg}
               alt="Joana Marques, psicóloga, no seu consultório no Porto"
               loading="lazy"
-              width={1440}
-              height={1920}
+              width={1792}
+              height={2400}
               className="rounded-[1.75rem] object-cover w-full aspect-[4/5] shadow-soft"
             />
           </div>
