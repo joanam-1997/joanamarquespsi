@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import consultorioImg from "@/assets/consultorio.jpg";
+import consultorioImg from "@/assets/consultorio-editada.jpg";
 
 
 export const Route = createFileRoute("/")({
