@@ -25,13 +25,17 @@ function Consultorio() {
       </p>
       <div className="grid md:grid-cols-12 gap-10 items-center">
         <div className="md:col-span-7">
-          <img
-            src={consultorioAsset.url}
-            alt="Consultório de psicologia na Boavista, Porto, com duas poltronas frente a frente"
-            loading="lazy"
-            className="rounded-[1.75rem] w-full object-cover aspect-[4/3] shadow-soft"
-          />
+          <div className="relative">
+            <div className="absolute -inset-4 rounded-[2rem] bg-accent/40 -rotate-2" aria-hidden />
+            <img
+              src={consultorioAsset.url}
+              alt="Consultório de psicologia na Boavista, Porto, com duas poltronas frente a frente"
+              loading="lazy"
+              className="relative rounded-[1.75rem] w-full object-cover aspect-[4/3] shadow-soft"
+            />
+          </div>
         </div>
+
         <div className="md:col-span-5 space-y-5">
           <h2 className="font-serif text-3xl md:text-4xl leading-tight text-foreground">
             Um espaço calmo e reservado
