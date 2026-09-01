@@ -60,20 +60,20 @@ function Consultorio() {
 
 function Hero() {
   return (
-    <section className="container-prose pt-16 pb-24 md:pt-24 md:pb-32">
-      <div className="max-w-3xl space-y-8">
+    <section className="container pt-16 pb-24 md:pt-24 md:pb-32">
+      <div className="space-y-8">
         <p className="text-xs uppercase tracking-[0.3em] text-primary">
           PSICOLOGIA · PORTO
         </p>
-        <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-foreground">
+        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[1.05] text-foreground">
           Um espaço para <em className="text-primary not-italic">sentir</em>,
           <br /> pensar e habitar-se.
         </h1>
-        <div className="space-y-5">
-          <p className="text-lg text-muted-foreground leading-relaxed">
+        <div className="max-w-4xl space-y-5">
+          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
             Acompanhamento psicológico para adultos, no Porto ou online, com uma abordagem psicodinâmica.
           </p>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
             Um espaço de escuta e reflexão para o ajudar a compreender o que sente, reconhecer padrões e construir novas formas de se relacionar consigo e com os outros.
           </p>
         </div>
