@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import consultorioAsset from "@/assets/consultorio.jpg.asset.json";
+import consultorioImg from "@/assets/consultorio.jpg";
 
 
 export const Route = createFileRoute("/")({
@@ -28,7 +28,7 @@ function Consultorio() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-[2rem] bg-accent/40 -rotate-2" aria-hidden />
             <img
-              src={consultorioAsset.url}
+              src={consultorioImg}
               alt="Consultório de psicologia na Boavista, Porto, com duas poltronas frente a frente"
               loading="lazy"
               className="relative rounded-[1.75rem] w-full object-cover aspect-[4/3] shadow-soft"
