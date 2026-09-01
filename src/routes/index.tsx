@@ -100,12 +100,12 @@ function Hero() {
 
 function Approach() {
   return (
-    <section className="container py-4 md:py-8">
+    <section className="container-prose py-4 md:py-8">
       <div>
         <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
           SOBRE O ACOMPANHAMENTO PSICOLÓGICO
         </p>
-        <blockquote className="font-serif text-2xl md:text-4xl lg:text-5xl leading-snug text-foreground italic">
+        <blockquote className="font-serif text-xl md:text-2xl leading-relaxed text-foreground italic">
           "Parte de nos conhecermos é deixarmos de nos conhecer — abandonarmos
           as histórias limitadoras que contamos a nós próprios acerca de quem
           somos."
@@ -113,7 +113,7 @@ function Approach() {
         <cite className="mt-4 block text-sm not-italic text-muted-foreground">
           — Lori Gottlieb
         </cite>
-        <p className="mt-8 max-w-4xl text-muted-foreground leading-relaxed text-lg md:text-xl">
+        <p className="mt-8 text-muted-foreground leading-relaxed text-lg">
           A minha intervenção baseia-se no modelo psicodinâmico, através do qual
           procuro compreender a história e as singularidades de cada pessoa,
           valorizando a relação terapêutica como elemento central do processo
