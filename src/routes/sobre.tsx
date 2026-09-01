@@ -49,7 +49,7 @@ function SobrePage() {
           </div>
           <div className="md:col-span-5 md:sticky md:top-28">
             <img
-              src={aboutImg.url}
+              src={aboutImg}
               alt="Joana Marques, psicóloga, no seu consultório no Porto"
               loading="lazy"
               width={1440}
