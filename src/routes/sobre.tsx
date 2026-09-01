@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import aboutImg from "@/assets/joana-retrato.jpeg.asset.json";
+import aboutImg from "@/assets/joana-retrato-editada.jpeg";
 
 export const Route = createFileRoute("/sobre")({
   head: () => ({
