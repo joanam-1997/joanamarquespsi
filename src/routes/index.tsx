@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import heroImg from "@/assets/hero.jpg";
+import consultorioAsset from "@/assets/consultorio.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
@@ -11,9 +12,47 @@ function HomePage() {
     <SiteLayout>
       <Hero />
       <Approach />
+      <Consultorio />
     </SiteLayout>
   );
 }
+
+function Consultorio() {
+  return (
+    <section className="container-prose py-16 md:py-24">
+      <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
+        O CONSULTÓRIO
+      </p>
+      <div className="grid md:grid-cols-12 gap-10 items-center">
+        <div className="md:col-span-7">
+          <img
+            src={consultorioAsset.url}
+            alt="Consultório de psicologia na Boavista, Porto, com duas poltronas frente a frente"
+            loading="lazy"
+            className="rounded-[1.75rem] w-full object-cover aspect-[4/3] shadow-soft"
+          />
+        </div>
+        <div className="md:col-span-5 space-y-5">
+          <h2 className="font-serif text-3xl md:text-4xl leading-tight text-foreground">
+            Um espaço calmo e reservado
+          </h2>
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            As consultas presenciais decorrem na Boavista, no Porto, num
+            ambiente tranquilo, pensado para que se sinta à vontade para falar
+            no seu tempo.
+          </p>
+          <Link
+            to="/marcacao"
+            className="inline-flex items-center gap-2 text-sm text-primary hover:gap-3 transition-all"
+          >
+            Ver morada e contactos <span aria-hidden>→</span>
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 
 function Hero() {
   return (
