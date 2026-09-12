@@ -25,7 +25,7 @@ function Consultorio() {
       </p>
       <div className="space-y-10">
         <div className="relative">
-          <div className="absolute -inset-4 rounded-[2rem] bg-accent/40 -rotate-2" aria-hidden />
+          <div className="absolute -inset-2 rounded-[1.5rem] bg-accent/40 -rotate-2" aria-hidden />
           <img
             src={consultorioImg}
             alt="Consultório de psicologia na Boavista, Porto, com duas poltronas frente a frente"
