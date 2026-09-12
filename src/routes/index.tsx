@@ -30,7 +30,7 @@ function Consultorio() {
             src={consultorioImg}
             alt="Consultório de psicologia na Boavista, Porto, com duas poltronas frente a frente"
             loading="lazy"
-            className="relative rounded-[1.75rem] w-full max-w-3xl mx-auto object-cover aspect-[16/10] shadow-soft"
+            className="relative rounded-[1.75rem] w-full max-w-3xl md:max-w-2xl mx-auto object-cover aspect-[16/10] shadow-soft"
           />
         </div>
 
