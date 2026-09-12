@@ -24,13 +24,13 @@ function Consultorio() {
         O CONSULTÓRIO
       </p>
       <div className="space-y-10">
-        <div className="relative">
+        <div className="relative w-full max-w-3xl mx-auto">
           <div className="absolute -inset-2 md:-inset-0.5 rounded-[1.5rem] md:rounded-[1.125rem] bg-accent/40 md:bg-accent/30 -rotate-2" aria-hidden />
           <img
             src={consultorioImg}
             alt="Consultório de psicologia na Boavista, Porto, com duas poltronas frente a frente"
             loading="lazy"
-            className="relative rounded-[1.75rem] w-full max-w-3xl mx-auto object-cover aspect-[16/10] shadow-soft"
+            className="relative rounded-[1.75rem] w-full object-cover aspect-[16/10] shadow-soft"
           />
         </div>
 
