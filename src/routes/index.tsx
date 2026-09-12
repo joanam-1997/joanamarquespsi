@@ -24,7 +24,7 @@ function Consultorio() {
         O CONSULTÓRIO
       </p>
       <div className="space-y-10">
-        <div className="relative w-full max-w-3xl mx-auto">
+        <div className="relative w-full max-w-[52rem] mx-auto">
           <div className="absolute -inset-2 md:-inset-0.5 rounded-[1.5rem] md:rounded-[1.125rem] bg-accent/40 md:bg-accent/30 -rotate-2" aria-hidden />
           <img
             src={consultorioImg}
