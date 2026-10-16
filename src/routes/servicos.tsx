@@ -100,7 +100,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Onde decorrem as sessões?",
-    a: "As sessões podem ser presenciais, na Boavista (Porto), ou online.",
+    a: "As sessões podem ser presenciais, no consultório na Boavista (Porto), ou online, por videochamada (Meet).",
   },
   {
     q: "Qual é a frequência das consultas?",
