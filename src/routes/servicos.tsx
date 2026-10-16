@@ -1,5 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export const Route = createFileRoute("/servicos")({
   head: () => ({
@@ -44,7 +50,24 @@ function ServicosPage() {
           Nota: Numa fase inicial, sempre que possível, privilegio uma frequência semanal, para dar
           maior continuidade ao processo. A frequência pode depois ser pensada em conjunto.
         </p>
-        <div className="mt-10">
+
+        <div className="mt-16">
+          <h2 className="font-serif text-3xl md:text-4xl text-foreground">Perguntas frequentes</h2>
+          <Accordion type="single" collapsible className="mt-4">
+            {faqs.map((item) => (
+              <AccordionItem key={item.q} value={item.q} className="border-border/70">
+                <AccordionTrigger className="py-5 font-serif text-lg text-foreground hover:no-underline">
+                  {item.q}
+                </AccordionTrigger>
+                <AccordionContent className="pb-5 text-muted-foreground leading-relaxed">
+                  {item.a}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+
+        <div className="mt-12">
           <Link
             to="/marcacao"
             className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-sm text-primary-foreground hover:bg-primary/90 transition-colors"
@@ -68,3 +91,34 @@ function PriceRow({ label, price, note }: { label: string; price: string; note: 
     </div>
   );
 }
+
+const faqs = [
+  {
+    q: "Para quem são as consultas?",
+    a: "As consultas destinam-se a adultos que procuram compreender-se com mais profundidade — no seu tempo, sem pressa.",
+  },
+  {
+    q: "Onde decorrem as sessões?",
+    a: "As sessões podem ser presenciais, na Boavista, no Porto, ou online. Em ambas as modalidades têm a mesma duração: 50 minutos.",
+  },
+  {
+    q: "De quanto em quanto tempo?",
+    a: "Numa fase inicial, sempre que possível, privilegio uma frequência semanal, para dar maior continuidade ao processo. A frequência, semanal ou quinzenal, pode depois ser pensada em conjunto.",
+  },
+  {
+    q: "Qual é o valor da consulta?",
+    a: "O valor é de 50 € por sessão de 50 minutos.",
+  },
+  {
+    q: "Como agendo a primeira consulta?",
+    a: "Pode contactar-me por WhatsApp, telefone ou e-mail. As consultas são realizadas mediante marcação prévia.",
+  },
+  {
+    q: "O que significa uma abordagem psicodinâmica?",
+    a: "É o modelo em que baseio o meu trabalho: procura compreender a história e as singularidades de cada pessoa, valorizando a relação terapêutica como elemento central do processo.",
+  },
+  {
+    q: "O que falamos em consulta é confidencial?",
+    a: "Sim. O acompanhamento rege-se pelo sigilo profissional e pelo código deontológico da Ordem dos Psicólogos Portugueses.",
+  },
+];
