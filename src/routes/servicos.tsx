@@ -111,19 +111,8 @@ const faqs: { q: string; a: ReactNode }[] = [
     a: "O valor é de 50€ por sessão. Cada sessão tem uma duração de 50 minutos.",
   },
   {
-    q: "Como agendo a primeira consulta?",
-    a: (
-      <>
-        Pode contactar-me por WhatsApp, telefone ou e-mail{" "}
-        <Link
-          to="/marcacao"
-          className="text-primary underline underline-offset-4 hover:text-primary/80"
-        >
-          (aqui)
-        </Link>
-        . As consultas são realizadas mediante marcação prévia.
-      </>
-    ),
+    q: "Como funciona a primeira consulta?",
+    a: "A primeira consulta é, antes de mais, um espaço para nos conhecermos. Serve para perceber o que a traz e o que procura, sem necessidade de saber exatamente por onde começar. É uma conversa de 50 minutos, presencial ou online, a partir da qual decidimos em conjunto se e como faz sentido avançar.",
   },
   {
     q: "O que é a abordagem psicodinâmica?",
