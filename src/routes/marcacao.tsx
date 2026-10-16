@@ -46,8 +46,16 @@ function MarcacaoPage() {
                 CONTACTOS
               </p>
               <a
+                href="https://wa.me/+351935727106"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="block text-muted-foreground hover:text-foreground transition"
+              >
+                <span className="font-semibold text-foreground">Enviar mensagem pelo WhatsApp</span>
+              </a>
+              <a
                 href="tel:+351935727106"
-                className="block text-muted-foreground hover:text-foreground transition whitespace-pre-line"
+                className="block mt-2 text-muted-foreground hover:text-foreground transition whitespace-pre-line"
               >
                 <span className="font-semibold text-foreground">Telefone:</span>{"\n"}+351 935727106
               </a>
@@ -56,14 +64,6 @@ function MarcacaoPage() {
                 className="block mt-2 text-muted-foreground hover:text-foreground transition whitespace-pre-line"
               >
                 <span className="font-semibold text-foreground">Email:</span>{"\n"}joanatmarques.psi@gmail.com
-              </a>
-              <a
-                href="https://wa.me/+351935727106"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="block mt-2 text-muted-foreground hover:text-foreground transition"
-              >
-                <span className="font-semibold text-foreground">Enviar mensagem pelo WhatsApp</span>
               </a>
             </div>
             <div className="border-t border-border/60 pt-6">
