@@ -111,7 +111,7 @@ const faqs = [
   },
   {
     q: "Como agendo a primeira consulta?",
-    a: "Pode contactar-me por WhatsApp, telefone ou e-mail. As consultas são realizadas mediante marcação prévia.",
+    a: "Pode contactar-me por WhatsApp, telefone ou e-mail (aqui). As consultas são realizadas mediante marcação prévia.",
   },
   {
     q: "O que significa uma abordagem psicodinâmica?",
