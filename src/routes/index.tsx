@@ -121,7 +121,9 @@ function Approach() {
           to="/sobre"
           className="inline-flex items-center gap-2 mt-8 text-sm text-primary hover:gap-3 transition-all"
         >
-          Ler mais sobre o meu percurso <span aria-hidden>→</span>
+          Ler mais sobre como funcionam as consultas
+          <br />
+          <span aria-hidden>→</span>
         </Link>
       </div>
     </section>
