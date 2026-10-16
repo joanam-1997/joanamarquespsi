@@ -118,7 +118,7 @@ function Approach() {
           psicoterapêutico.
         </p>
         <Link
-          to="/sobre"
+          to="/servicos"
           className="inline-flex items-center gap-2 mt-8 text-sm text-primary hover:gap-3 transition-all"
         >
           Ler mais sobre como funcionam as consultas
