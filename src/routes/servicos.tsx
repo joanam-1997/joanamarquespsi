@@ -112,7 +112,18 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Como agendo a primeira consulta?",
-    a: "Pode contactar-me por WhatsApp, telefone ou e-mail (aqui). As consultas são realizadas mediante marcação prévia.",
+    a: (
+      <>
+        Pode contactar-me por WhatsApp, telefone ou e-mail{" "}
+        <Link
+          to="/marcacao"
+          className="text-primary underline underline-offset-4 hover:text-primary/80"
+        >
+          (aqui)
+        </Link>
+        . As consultas são realizadas mediante marcação prévia.
+      </>
+    ),
   },
   {
     q: "O que significa uma abordagem psicodinâmica?",
