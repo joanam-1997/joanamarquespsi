@@ -126,7 +126,7 @@ const faqs: { q: string; a: ReactNode }[] = [
     ),
   },
   {
-    q: "O que significa uma abordagem psicodinâmica?",
+    q: "O que é a abordagem psicodinâmica?",
     a: "É o modelo em que baseio o meu trabalho: procura compreender a história e as singularidades de cada pessoa, valorizando a relação terapêutica como elemento central do processo.",
   },
   {
