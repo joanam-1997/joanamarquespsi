@@ -122,4 +122,19 @@ const faqs: { q: string; a: ReactNode }[] = [
     q: "O que falamos em consulta é confidencial?",
     a: "Sim. O acompanhamento rege-se pelo sigilo profissional e pelo código deontológico da Ordem dos Psicólogos Portugueses.",
   },
+  {
+    q: "Como agendo a primeira consulta?",
+    a: (
+      <>
+        Pode contactar-me por WhatsApp, telefone ou e-mail{" "}
+        <Link
+          to="/marcacao"
+          className="text-primary underline underline-offset-4 hover:text-primary/80"
+        >
+          (aqui)
+        </Link>
+        . As consultas são realizadas mediante marcação prévia.
+      </>
+    ),
+  },
 ];
