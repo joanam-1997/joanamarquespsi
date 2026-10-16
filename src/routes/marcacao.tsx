@@ -36,7 +36,9 @@ function MarcacaoPage() {
             contactar-me através do e-mail, whatsapp ou por telefone. Responderei
             com a maior brevidade possível.
             {"\n"}As consultas são realizadas mediante marcação prévia.
-            {"\n\n\n"}Adultos · Presencial, na Boavista, ou online · 50 minutos · 50€ por sessão
+          </p>
+          <p className="mt-3 text-lg font-semibold text-foreground leading-relaxed">
+            Adultos · Presencial, na Boavista, ou online · 50 minutos · 50€ por sessão
           </p>
         </div>
 
