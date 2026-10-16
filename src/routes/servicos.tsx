@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     q: "Onde decorrem as sessões?",
-    a: "As sessões podem ser presenciais, na Boavista, no Porto, ou online. Em ambas as modalidades têm a mesma duração: 50 minutos.",
+    a: "As sessões podem ser presenciais, na Boavista (Porto), ou online.",
   },
   {
     q: "De quanto em quanto tempo?",
