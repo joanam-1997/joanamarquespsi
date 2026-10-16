@@ -111,6 +111,18 @@ const faqs: { q: string; a: ReactNode }[] = [
     a: "O valor é de 50€ por sessão. Cada sessão tem uma duração de 50 minutos.",
   },
   {
+    q: "Como funciona a primeira consulta?",
+    a: "A primeira consulta é, antes de mais, um espaço para nos conhecermos. Serve para perceber o que a traz e o que procura, sem necessidade de saber exatamente por onde começar. É uma conversa de 50 minutos, presencial ou online, a partir da qual decidimos em conjunto se e como faz sentido avançar.",
+  },
+  {
+    q: "O que é a abordagem psicodinâmica?",
+    a: "A abordagem psicodinâmica procura compreender o que sentimos e vivemos à luz da nossa história, das nossas relações e das nossas experiências. A relação terapêutica ocupa um lugar central neste processo de compreensão e mudança. É neste modelo que baseio a minha intervenção.",
+  },
+  {
+    q: "O que falamos em consulta é confidencial?",
+    a: "Sim. O acompanhamento rege-se pelo sigilo profissional e pelo código deontológico da Ordem dos Psicólogos Portugueses.",
+  },
+  {
     q: "Como agendo a primeira consulta?",
     a: (
       <>
@@ -124,13 +136,5 @@ const faqs: { q: string; a: ReactNode }[] = [
         . As consultas são realizadas mediante marcação prévia.
       </>
     ),
-  },
-  {
-    q: "O que é a abordagem psicodinâmica?",
-    a: "A abordagem psicodinâmica procura compreender o que sentimos e vivemos à luz da nossa história, das nossas relações e das nossas experiências. A relação terapêutica ocupa um lugar central neste processo de compreensão e mudança. É neste modelo que baseio a minha intervenção.",
-  },
-  {
-    q: "O que falamos em consulta é confidencial?",
-    a: "Sim. O acompanhamento rege-se pelo sigilo profissional e pelo código deontológico da Ordem dos Psicólogos Portugueses.",
   },
 ];
