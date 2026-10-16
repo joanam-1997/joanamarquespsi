@@ -37,7 +37,7 @@ function ServicosPage() {
           <PriceRow
             label="Consulta psicológica individual"
             price="50 €"
-            note="Sessão semanal de 50 minutos, presencial ou online."
+            note="Sessão semanal ou quinzenal de 50 minutos, presencial ou online."
           />
         </div>
       </section>
