@@ -107,7 +107,7 @@ const faqs = [
   },
   {
     q: "Qual é o valor da consulta?",
-    a: "O valor é de 50 € por sessão de 50 minutos.",
+    a: "O valor é de 50€ por sessão. Cada sessão tem uma duração de 50 minutos.",
   },
   {
     q: "Como agendo a primeira consulta?",
