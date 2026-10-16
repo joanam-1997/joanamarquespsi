@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import {
@@ -92,7 +93,7 @@ function PriceRow({ label, price, note }: { label: string; price: string; note: 
   );
 }
 
-const faqs = [
+const faqs: { q: string; a: ReactNode }[] = [
   {
     q: "A quem se destinam as consultas?",
     a: "As consultas destinam-se a pessoas adultas que procuram apoio psicológico ou um espaço para compreenderem melhor o que sentem.\u00a0\nNão é necessário ter um diagnóstico ou saber exatamente o que dizer para procurar acompanhamento.",
@@ -111,7 +112,18 @@ const faqs = [
   },
   {
     q: "Como agendo a primeira consulta?",
-    a: "Pode contactar-me por WhatsApp, telefone ou e-mail (aqui). As consultas são realizadas mediante marcação prévia.",
+    a: (
+      <>
+        Pode contactar-me por WhatsApp, telefone ou e-mail{" "}
+        <Link
+          to="/marcacao"
+          className="text-primary underline underline-offset-4 hover:text-primary/80"
+        >
+          (aqui)
+        </Link>
+        . As consultas são realizadas mediante marcação prévia.
+      </>
+    ),
   },
   {
     q: "O que significa uma abordagem psicodinâmica?",
