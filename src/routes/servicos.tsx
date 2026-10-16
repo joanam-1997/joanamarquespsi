@@ -47,7 +47,7 @@ function ServicosPage() {
           />
         </div>
         <p className="mt-6 text-muted-foreground text-xs leading-relaxed">
-          Nota: Numa fase inicial, sempre que possível, privilegio uma frequência semanal, para dar
+          Nota: Numa fase inicial, sempre que possível, privilegio uma frequência semanal para dar
           maior continuidade ao processo. A frequência pode depois ser pensada em conjunto.
         </p>
 
@@ -102,8 +102,8 @@ const faqs = [
     a: "As sessões podem ser presenciais, na Boavista (Porto), ou online.",
   },
   {
-    q: "De quanto em quanto tempo?",
-    a: "Numa fase inicial, sempre que possível, privilegio uma frequência semanal, para dar maior continuidade ao processo. A frequência, semanal ou quinzenal, pode depois ser pensada em conjunto.",
+    q: "Qual é a frequência das consultas?",
+    a: "A frequência é conversada consigo e acordada tendo em conta as suas necessidades e o enquadramento do acompanhamento. Sempre que possível, numa fase inicial, privilegio uma frequência semanal para dar maior continuidade ao processo.",
   },
   {
     q: "Qual é o valor da consulta?",
