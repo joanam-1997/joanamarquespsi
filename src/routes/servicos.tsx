@@ -127,7 +127,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "O que é a abordagem psicodinâmica?",
-    a: "É o modelo em que baseio o meu trabalho: procura compreender a história e as singularidades de cada pessoa, valorizando a relação terapêutica como elemento central do processo.",
+    a: "A abordagem psicodinâmica procura compreender o que sentimos e vivemos à luz da nossa história, das nossas relações e das nossas experiências. A relação terapêutica ocupa um lugar central neste processo de compreensão e mudança. É neste modelo que baseio a minha intervenção.",
   },
   {
     q: "O que falamos em consulta é confidencial?",
