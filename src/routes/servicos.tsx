@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 
 export const Route = createFileRoute("/servicos")({
@@ -44,6 +44,14 @@ function ServicosPage() {
           Nota: Numa fase inicial, sempre que possível, privilegio uma frequência semanal, para dar
           maior continuidade ao processo. A frequência pode depois ser pensada em conjunto.
         </p>
+        <div className="mt-10">
+          <Link
+            to="/marcacao"
+            className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-sm text-primary-foreground hover:bg-primary/90 transition-colors"
+          >
+            Marcar consulta
+          </Link>
+        </div>
       </section>
     </SiteLayout>
   );
