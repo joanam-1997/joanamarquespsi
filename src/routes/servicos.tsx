@@ -40,6 +40,10 @@ function ServicosPage() {
             note="Sessão semanal ou quinzenal de 50 minutos, presencial ou online."
           />
         </div>
+        <p className="mt-6 text-muted-foreground text-sm leading-relaxed">
+          Numa fase inicial, sempre que possível, privilegio uma frequência semanal, para dar
+          maior continuidade ao processo. A frequência pode depois ser pensada em conjunto.
+        </p>
       </section>
     </SiteLayout>
   );
