@@ -96,7 +96,7 @@ function PriceRow({ label, price, note }: { label: string; price: string; note: 
 const faqs: { q: string; a: ReactNode }[] = [
   {
     q: "A quem se destinam as consultas?",
-    a: "As consultas destinam-se a pessoas adultas que procuram apoio psicológico ou um espaço para compreenderem melhor o que sentem.\u00a0\nNão é necessário ter um diagnóstico ou saber exatamente o que dizer para procurar acompanhamento.",
+    a: "As consultas destinam-se a pessoas adultas que procuram apoio psicológico ou um espaço para compreenderem melhor o que sentem. Não é necessário ter um diagnóstico ou saber exatamente o que dizer para procurar acompanhamento.",
   },
   {
     q: "Onde decorrem as sessões?",
