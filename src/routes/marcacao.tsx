@@ -52,9 +52,9 @@ function MarcacaoPage() {
                 href="https://wa.me/+351935727106"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="block text-muted-foreground hover:text-foreground transition"
+                className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-sm text-primary-foreground hover:bg-primary/90 transition-colors"
               >
-                <span className="font-semibold text-foreground">Enviar mensagem pelo WhatsApp</span>
+                Enviar mensagem pelo WhatsApp
               </a>
               <a
                 href="tel:+351935727106"
