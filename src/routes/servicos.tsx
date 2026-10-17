@@ -112,7 +112,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Como funciona a primeira consulta?",
-    a: "A primeira consulta é, antes de mais, um espaço para nos conhecermos. Serve para perceber o que a traz e o que procura, sem necessidade de saber exatamente por onde começar. É uma conversa de 50 minutos, presencial ou online, a partir da qual decidimos em conjunto se e como faz sentido avançar.",
+    a: "A primeira consulta é um espaço para nos conhecermos e percebermos o que o traz até aqui. Não precisa de chegar com tudo organizado, nem de saber exatamente o que quer trabalhar. Podemos começar por aquilo que, naquele momento, lhe fizer sentido trazer.\nHá também espaço para esclarecer dúvidas e conversar sobre o funcionamento das consultas e a possibilidade de iniciarmos um acompanhamento.",
   },
   {
     q: "O que é a abordagem psicodinâmica?",
