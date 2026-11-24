@@ -104,7 +104,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Qual é a frequência das consultas?",
-    a: "A frequência é conversada consigo e acordada tendo em conta as suas necessidades e o enquadramento do acompanhamento. Sempre que possível, numa fase inicial, privilegio uma frequência semanal para dar maior continuidade ao processo.",
+    a: "Privilegio, sempre que possível, uma frequência semanal para dar maior continuidade ao processo. Mas a frequência pode depois ser conversada e acordada também tendo em conta as suas necessidades e o enquadramento do acompanhamento.",
   },
   {
     q: "Qual é o valor da consulta?",
